@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP page</title>
+    <link rel="stylesheet" href="css/otpstyle/style.css" />
+    <link rel="stylesheet" href="css/otpstyle/mediaquery.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <h2 class="top_heading">CodesandBots</h2>
+      <div class="sub_container">
+        <div class="left_portion">
+          <h1 class="left_portion_heading">Welcome to CodesandBots</h1>
+          <small class="left_portion_subheading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </small>
+          <img class="left_portion_img" src="/images/codesandbots_robotpic.PNG" />
+        </div>
+        <div class="right_portion">
+          <p class="right_portion_title">
+            Please enter the verification code sent to your registered email and
+            mobile number
+          </p>
+          <div class="right_portion_numbersection">
+            <!-- <span>+91 </span>
+            <span>9874563211 </span>
+            <a href="/">Edit</a> -->
+          </div>
+          <input
+            class="right_portion_inputfield"
+            id="otpcode"
+            type="text"
+            placeholder="Enter Code"
+          />
+          <a href="#" class="Resend_button" id="Resend_otp"> Resend code </a>
+          <button class="continue_button" id='otp-button'>Continue</button>
+          <div class="right_portion_bottomlinks">
+            <a href="/#footer">Need help? Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/otp.js"></script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.js"
+  integrity="sha512-un2apco0rYUiZXxbURvZ7oBq4u0cGrXaIbC4C1k5nAio6WRMyYvj8xKua3NqALOuu0F83zDha7nKoFCZzx26rg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+</html>

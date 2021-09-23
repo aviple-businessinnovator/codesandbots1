@@ -1,0 +1,4078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+  <a href="https://github.com/FortAwesome/Font-Awesome">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?​family=Open+Sans" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.js" integrity="sha512-un2apco0rYUiZXxbURvZ7oBq4u0cGrXaIbC4C1k5nAio6WRMyYvj8xKua3NqALOuu0F83zDha7nKoFCZzx26rg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <style>
+      html {
+        scroll-padding-top: 70px;
+      }
+
+      .contact-w3ls,
+      .advantages,
+      .banner-bottom,
+      .w3l-visitors-agile,
+      .plans-section,
+      .team {
+        padding-top: 100px;
+      }
+
+      h3.title-w3-agileits {
+        font-size: 3em;
+        color: #fff;
+        font-weight: 300;
+        letter-spacing: 3px;
+        text-align: center;
+        text-transform: capitalize;
+        font-family:   'Open Sans', sans-serif;
+      }
+
+      .title-black-wthree {
+        color: #0f2453 !important;
+      }
+
+      /*--//main--*/
+      /*-- /about --*/
+      .about-wthree {
+        padding: 5em 0 22.6em 0px;
+        background: #eceef2;
+      }
+
+      .ab-w3l-spa {
+        text-align: center;
+        position: relative;
+      }
+
+      .w3l-slider-img {
+        border: 10px solid rgba(255, 255, 255, 0.4);
+        position: absolute;
+        left: 2em;
+        top: 29em;
+      }
+
+      .w3ls-info-about {
+        position: absolute;
+        left: 46%;
+        z-index: 99;
+        padding: 2em 4.5em;
+        top: 107%;
+        border: 10px solid #000;
+      }
+
+      .w3ls-info-about h4 {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        color: #ffce14;
+        /* margin-bottom: 11px; */
+        line-height: 1.4em;
+        text-transform: capitalize;
+        background: #0f2453;
+        padding: 10px 15px;
+      }
+
+      .w3ls-info-about p {
+        /* margin: 0em 0 2em 0; */
+        color: #ffffff;
+        line-height: 2.2em;
+        background: rgba(0, 0, 0, 0.85);
+        font-size: 0.9em;
+        letter-spacing: 2px;
+      }
+
+      p.about-para-w3ls {
+        color: #777;
+        font-size: 16px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-bottom: 2em;
+      }
+
+      /*-- //about --*/
+      /*--sevices-section--*/
+      .advantages {
+        background: url(../images/services.jpg) no-repeat;
+        min-height: 350px;
+        background-size: cover;
+      }
+
+      .advantage-block {
+        padding: 2em 2em;
+        background: rgba(0, 0, 0, 0.52);
+        text-align: center;
+      }
+
+      .advantage-block:hover {
+        background: rgba(255, 255, 255, 0.22);
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+      }
+
+      .advantage-block h4 {
+        font-size: 1.5em;
+        color: #fff;
+        margin: 0.5em 0em 0.5em 0em;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+      }
+
+      .advantage-block p {
+        font-size: 16px;
+        color: #fff;
+        /* line-height: 1.8em; */
+        text-align: left;
+        padding-left: 3em;
+        line-height: 35px;
+        letter-spacing: 0.8px;
+      }
+
+      .advantage-grid {
+        padding: 0;
+      }
+
+      .left-w3ls {
+        border-right: 1px solid #b1b1b1;
+      }
+
+      .advantage-block .fa-credit-card,
+      .advantage-block .fa-clock-o {
+        color: #ffce14;
+        font-size: 45px;
+        margin-bottom: 10px;
+      }
+
+      .advantage-block p i {
+        color: #ffce14;
+        font-size: 13px;
+        margin-right: 10px;
+      }
+
+      /*-- visitors --*/
+      .w3l-visitors-agile {
+        background: rgba(15, 36, 83, 0.07);
+      }
+
+      .title-agileits1 {
+        text-align: center;
+      }
+
+      .title-agileits1 h3 {
+        display: block;
+        color: #212121;
+        font-size: 2.5em;
+        position: relative;
+        padding-bottom: 0.5em;
+      }
+
+      .title-agileits1 h3:before {
+        content: "";
+        background: #bdbdbd;
+        height: 1px;
+        width: 23%;
+        position: absolute;
+        bottom: 0%;
+        left: 38%;
+      }
+
+      .title-agileits1 h3:after {
+        content: "";
+        background: #00a4e4;
+        height: 4px;
+        width: 10%;
+        position: absolute;
+        bottom: -1px;
+        left: 44%;
+      }
+
+      h3.w3l-agile:before,
+      h2.w3l-agile:before {
+        content: "";
+        background: #ccc;
+        height: 1px;
+        width: 15%;
+        position: absolute;
+        bottom: 0%;
+        left: 43%;
+      }
+
+      .w3layouts_work_grid_left {
+        float: left;
+        width: 50%;
+        position: relative;
+      }
+
+      .w3layouts_work_grid_left_pos {
+        position: absolute;
+        top: 18%;
+        right: -7%;
+        width: 60%;
+      }
+
+      .w3layouts_work_grid_right {
+        float: right;
+        width: 50%;
+        padding: 5em 13em 0em 6em;
+      }
+
+      .w3layouts_work_grid_left_pos img {
+        box-shadow: 0 0 15px rgba(98, 98, 98, 0.32);
+        -webkit-box-shadow: 0 0 15px rgba(98, 98, 98, 0.32);
+      }
+
+      .w3layouts_work_grid_right h4 {
+        font-size: 25px;
+        color: #0f2453;
+        text-transform: uppercase;
+      }
+
+      .w3layouts_work_grid_right h4 i {
+        color: #061d84 !important;
+      }
+
+      .w3layouts_work_grid_right h5 {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        text-align: right;
+        margin-top: 10px;
+        color: #212121;
+        line-height: 1.4em;
+        text-transform: capitalize;
+      }
+
+      .w3layouts_work_grid_right p {
+        color: #0f2c86;
+        font-size: 22.5px;
+      }
+
+      .w3layouts_work_grid_right p:nth-child(4) {
+        color: #061d84;
+        text-align: right;
+        margin-top: 0 !important;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      /*-- //to-top --*/
+      /*--responsive--*/
+      @media (max-width: 1600px) {
+        .callbacks_tabs {
+          top: 56%;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 6%;
+          left: 49%;
+        }
+      }
+
+      @media (max-width: 1440px) {
+        .agileits-banner-info {
+          padding: 5em 2em;
+        }
+
+        .callbacks_tabs {
+          left: 46%;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 640px;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 11%;
+        }
+
+        .fields-w3ls {
+          width: 21.5%;
+        }
+      }
+
+      @media (max-width: 1366px) {
+        .agileits-banner-info h4 {
+          font-size: 3.5em;
+        }
+
+        .agileits-banner-info {
+          margin-top: 5em;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 560px;
+        }
+
+        .callbacks_tabs {
+          top: 54.5%;
+        }
+
+        .thim-click-to-bottom i {
+          height: 53px;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 61px 0;
+          font-size: 23px;
+          letter-spacing: 3.5px;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 5em 11em 0em 6em;
+          margin-top: 4em;
+        }
+
+        .contact-w3-agile1 iframe {
+          height: 190px;
+        }
+
+        ul.resp-tabs-list {
+          margin-left: 17em;
+        }
+      }
+
+      @media (max-width: 1280px) {
+        .book-form form input[type="submit"] {
+          margin-left: 0.2em;
+        }
+
+        .book-form {
+          padding: 0 0 0 23px;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 5em 11em 0em 5em;
+          margin-top: 2.5em;
+        }
+
+        .textbox h4 {
+          font-size: 1.7em;
+        }
+      }
+
+      @media (max-width: 1080px) {
+        .navbar-brand {
+          font-size: 26px;
+        }
+
+        p.logo_w3l_agile_caption {
+          letter-spacing: 4.7px;
+          font-size: 10px;
+        }
+
+        .menu__link {
+          font-size: 0.8em;
+        }
+
+        .agileits-banner-info h4 {
+          font-size: 3.3em;
+          letter-spacing: 23px;
+        }
+
+        .agileits-banner-info h3 {
+          font-size: 1.2em;
+          letter-spacing: 9px;
+        }
+
+        .agileits-banner-info p {
+          font-size: 0.9em;
+          letter-spacing: 9px;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 500px;
+        }
+
+        .agileits-banner-info {
+          margin-top: 4em;
+        }
+
+        .callbacks_tabs {
+          left: 44.8%;
+        }
+
+        .agileits_w3layouts_more a {
+          font-size: 12.5px;
+          margin-top: 2.5em;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 11%;
+          left: 48.5%;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 54px 0;
+          font-size: 16px;
+        }
+
+        .book-form form input[type="submit"] {
+          padding: 0em 1.6em;
+          height: 125px !important;
+          font-size: 14px;
+        }
+
+        .book-form p {
+          font-size: 12px;
+        }
+
+        .fields-w3ls {
+          width: 20.5%;
+          margin: 1.8em 1em 0 0;
+        }
+
+        .book-form {
+          height: 125px;
+        }
+
+        .contact-w3ls,
+        .advantages,
+        .banner-bottom,
+        .w3l-visitors-agile,
+        .plans-section,
+        .team {
+          padding: 70px 0px;
+        }
+
+        .about-wthree {
+          padding: 4em 0 21.2em 0px;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 22px !important;
+          letter-spacing: 2px;
+        }
+
+        .cbp-ig-icon:before {
+          font-size: 3em;
+        }
+
+        .cbp-ig-grid .cbp-ig-title {
+          font-size: 0.9em;
+          letter-spacing: 2px;
+        }
+
+        .cbp-ig-grid .cbp-ig-category {
+          text-transform: uppercase;
+          display: inline-block;
+          font-size: 0.8em;
+          letter-spacing: 1.5px;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 2.4em;
+          margin-bottom: 0.8em;
+        }
+
+        .w3l-slider-img {
+          top: 23em;
+        }
+
+        .w3ls-info-about h4 {
+          font-size: 1.2em;
+        }
+
+        .w3ls-info-about {
+          left: 48%;
+          padding: 2em 3em;
+          top: 110%;
+        }
+
+        .w3ls-info-about p {
+          letter-spacing: 1.5px;
+        }
+
+        .advantage-block p {
+          padding-left: 1em;
+        }
+
+        .advantage-block .fa-credit-card,
+        .advantage-block .fa-clock-o {
+          font-size: 40px;
+        }
+
+        .advantage-block h4 {
+          font-size: 23px;
+          letter-spacing: 2px;
+        }
+
+        .resp-tabs-list li img {
+          border-radius: 100%;
+          width: 85%;
+          margin: 0 auto;
+        }
+
+        .resp-tabs-list li {
+          padding: 11px 10px;
+        }
+
+        ul.resp-tabs-list {
+          margin-left: 11.5em;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          width: 33%;
+        }
+
+        .team-Info-agileits h4 {
+          font-size: 23px;
+        }
+
+        .team-Info-agileits {
+          padding: 3.3em 0 0 3em;
+        }
+
+        .team-Info-agileits p {
+          margin: 1.3em 0 0.8em;
+        }
+
+        .price-grid {
+          padding: 0px 10px;
+        }
+
+        .price-gd-top h4 {
+          font-size: 1.3em;
+          top: 9.4em;
+        }
+
+        .price-selet h3 {
+          font-size: 1.5em;
+        }
+
+        .price-selet a {
+          padding: 0.5em 1.7em;
+        }
+
+        .w3layouts_work_grid_left {
+          width: 45%;
+        }
+
+        .w3layouts_work_grid_right h4 {
+          font-size: 15px;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 1em 9em 0em 1em;
+          margin-top: 2.5em;
+        }
+
+        .w3layouts_work_grid_right h5 {
+          font-size: 1.3em;
+        }
+
+        .flex-control-nav {
+          top: 23%;
+        }
+
+        section.contact-w3ls h4 {
+          font-size: 29px;
+        }
+
+        section.contact-w3ls label.contact-p1 {
+          font-size: 15px;
+          padding-bottom: 6px;
+        }
+
+        section.contact-w3ls p.contact-agile1 {
+          line-height: 24.7px;
+        }
+
+        section.contact-w3ls button.btn.btn-primary {
+          padding: 8px 20px;
+        }
+
+        .contact-w3-agile1 iframe {
+          height: 185px;
+        }
+
+        section.contact-w3ls p.contact-agile1 {
+          font-size: 13px;
+        }
+
+        .textbox h4 {
+          font-size: 1.5em;
+        }
+      }
+
+      @media (max-width: 1050px) {}
+
+      @media (max-width: 1024px) {
+        .navbar-brand {
+          font-size: 23px;
+          letter-spacing: 4px;
+        }
+
+        p.logo_w3l_agile_caption {
+          letter-spacing: 3.2px;
+        }
+
+        .search_form input[type="search"] {
+          width: 266px;
+        }
+
+        .search_form input[type="submit"] {
+          font-size: 12px;
+          letter-spacing: 1px;
+          padding: 6.5px 19px;
+        }
+
+        .search_box:checked~.search_form {
+          width: 384px;
+        }
+
+        .agileits-banner-info h4 {
+          font-size: 2.9em;
+          letter-spacing: 20px;
+        }
+
+        .agileits-banner-info h3 {
+          font-size: 1.1em;
+          letter-spacing: 8px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 9px;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 480px;
+        }
+
+        .callbacks_tabs {
+          left: 44.5%;
+          top: 50.5%;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 19%;
+        }
+
+        .agileits-banner-info {
+          margin-top: 3em;
+        }
+
+        .w3layouts_work_grid_right {
+          margin-top: 2em;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 10%;
+        }
+
+        .textbox h4 {
+          font-size: 1.3em;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .menu__link {
+          font-size: 0.76em;
+        }
+
+        .navbar-nav>li>a {
+          padding: 0 1em;
+        }
+
+        .navbar-brand {
+          font-size: 22px;
+        }
+
+        p.logo_w3l_agile_caption {
+          letter-spacing: 3px;
+        }
+
+        .agileits-banner-info {
+          padding: 4em 0em;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 460px;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 14%;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 20px 0;
+        }
+
+        .book-form {
+          padding: 0 0 0 57px;
+        }
+
+        .book-form form input[type="submit"] {
+          margin-left: 1.3em;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 20px !important;
+        }
+
+        .banner-bottom h3 {
+          font-size: 14px;
+          line-height: 2.5em;
+        }
+
+        .cbp-ig-grid li:last-child,
+        .cbp-ig-grid li:nth-child(3) {
+          border-top: 1px solid #cfdbf3;
+        }
+
+        .cbp-ig-grid li:nth-child(2) {
+          border-right: 1px solid #cfdbf3;
+        }
+
+        .w3l-slider-img {
+          width: 60%;
+          left: 1em;
+        }
+
+        .w3ls-info-about {
+          left: 32%;
+          padding: 1.5em 3em;
+          top: 104.5%;
+          width: 68%;
+          border: 8px solid #000;
+        }
+
+        .w3l-slider-img {
+          border: 8px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .left-w3ls {
+          border-bottom: 1px solid #b1b1b1;
+          border-right: none;
+        }
+
+        .advantage-grid {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        ul.resp-tabs-list {
+          margin-left: 5em;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          width: 40%;
+          float: left;
+          margin-left: 0em;
+        }
+
+        .team-Info-agileits {
+          padding: 3em 0 0 2.5em;
+          float: left;
+          width: 60%;
+        }
+
+        .price-grid {
+          padding: 0px 10px;
+          width: 41%;
+          float: left;
+          margin: 0 2.02em;
+        }
+
+        .price-grid:nth-child(1),
+        .price-grid:nth-child(2) {
+          margin-bottom: 2em;
+        }
+
+        .price-gd-top h4 {
+          top: 12.3em;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 2.3em;
+        }
+
+        .w3layouts_work_grid_right {
+          margin-top: 1em;
+          padding: 1em 6em 0em 1em;
+        }
+
+        .contact-w3-agile2 {
+          padding-left: 0;
+        }
+
+        section.contact-w3ls h4 {
+          font-size: 25px;
+          padding-bottom: 15px;
+        }
+
+        section.contact-w3ls .contact-agileits,
+        .contact-w3-agile1 {
+          padding: 20px 25px;
+        }
+
+        section.contact-w3ls p.contact-agile1 strong {
+          font-size: 14px;
+        }
+
+        section.contact-w3ls p.contact-agile1 {
+          font-size: 13px;
+        }
+
+        .contact-w3-agile1 iframe {
+          height: 175px;
+        }
+
+        section.contact-w3ls p.contact-agile1 {
+          padding-bottom: 4.5px;
+        }
+
+        .about-wthree {
+          padding: 4em 0 16.8em 0px;
+        }
+
+        .w3ls_banner_bottom_grids {
+          margin: 2.5em 0 0;
+        }
+
+        .gallery-grid {
+          padding: 0;
+          float: left;
+          width: 33%;
+        }
+
+        .textbox h4 {
+          margin-top: 4.5em;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .callbacks_tabs {
+          left: 44%;
+        }
+
+        .social-icons3 li a {
+          height: 25px;
+          width: 25px;
+          margin-right: 0.5em;
+          font-size: 14px;
+          line-height: 26px;
+        }
+
+        ul.social-icons3 {
+          margin-top: 0.6em;
+        }
+
+        .contact-bnr-w3-agile ul li {
+          padding: 10px 14px;
+        }
+
+        .book-form {
+          padding: 0 0 0 45px;
+        }
+
+        .advantage-block h4 {
+          font-size: 21px;
+        }
+
+        .advantage-block .fa-credit-card,
+        .advantage-block .fa-clock-o {
+          font-size: 35px;
+          margin-bottom: 3px;
+        }
+
+        ul.resp-tabs-list {
+          margin-left: 4.5em;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 90px 5px 20px 5px;
+        }
+
+        .search_box:checked~.search_form {
+          top: 43px;
+        }
+
+        .w3layouts_work_grid_right p {
+          margin: 1em 0 0;
+        }
+
+        .form-group {
+          margin-bottom: 0px;
+        }
+
+        section.contact-w3ls button.btn.btn-primary {
+          margin: 21px 0 8px;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .agileits-banner-info h4 {
+          font-size: 2.5em;
+          letter-spacing: 18px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 6px;
+          font-size: 0.8em;
+        }
+
+        .agileits-banner-info {
+          margin-top: 1.5em;
+        }
+
+        .agileits_w3layouts_more a {
+          font-size: 12px;
+          margin-top: 2em;
+          padding: 6px 20px;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 373px;
+        }
+
+        .callbacks_tabs {
+          left: 42.85%;
+          top: 51.5%;
+        }
+
+        .thim-click-to-bottom i {
+          height: 40px;
+          width: 25px;
+          line-height: 39px;
+          font-size: 15px;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 10%;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 15px 0;
+          font-size: 15px;
+        }
+
+        .book-form {
+          padding: 0 0 0 25px;
+        }
+
+        .book-form form input[type="submit"] {
+          margin-left: 0.3em;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 19px !important;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 78px 5px 20px 5px;
+        }
+
+        .w3layouts_work_grid_right p {
+          font-size: 15px;
+          line-height: 1.8em;
+          letter-spacing: 0.5px;
+        }
+
+        .w3layouts_work_grid_right h4 {
+          font-size: 13px;
+          letter-spacing: 1px;
+        }
+
+        .w3layouts_work_grid_right {
+          margin-top: 0.5em;
+        }
+
+        .w3layouts_work_grid_right h5 {
+          font-size: 1.2em;
+        }
+
+        .flex-control-nav {
+          top: 10%;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 2.1em;
+        }
+
+        .textbox h4 {
+          margin-top: 4em;
+          font-size: 1.2em;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .book-form form input[type="submit"] {
+          font-size: 13px;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 16px !important;
+        }
+
+        .banner-bottom h3 {
+          font-size: 13px;
+        }
+
+        .w3_grid_effect {
+          padding: 1.5em;
+        }
+
+        .cbp-ig-icon:before {
+          font-size: 2.5em;
+        }
+
+        .cbp-ig-grid .cbp-ig-title {
+          font-size: 0.8em;
+        }
+
+        p.about-para-w3ls {
+          font-size: 14.5px;
+        }
+
+        .w3l-slider-img {
+          top: 20.5em;
+        }
+
+        .w3ls-info-about h4 {
+          font-size: 1.1em;
+        }
+
+        .w3ls-info-about p {
+          font-size: 0.8em;
+        }
+
+        .w3ls-info-about {
+          left: 36%;
+          top: 105.5%;
+          width: 64%;
+        }
+
+        .advantage-block h4 {
+          font-size: 19px;
+          margin: 0.8em 0em 0.2em 0em;
+        }
+
+        .advantage-block p {
+          font-size: 14.5px;
+          line-height: 33px;
+        }
+
+        .resp-accordion img {
+          border-radius: 50%;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+          -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+          -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+          -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+        }
+
+        h2.resp-accordion:first-child,
+        h2.resp-accordion {
+          border-top: none !important;
+          border: none !important;
+        }
+
+        .team-Info-agileits p {
+          font-size: 14.5px;
+        }
+
+        .team-Info-agileits h4 {
+          font-size: 20px;
+        }
+
+        .w3layouts_work_grid_right p {
+          font-size: 14.5px;
+          line-height: 2em;
+        }
+
+        .flex-control-paging li a {
+          font-size: 13px;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 2em;
+          letter-spacing: 2px;
+        }
+
+        .w3layouts_work_grid_right h5 {
+          font-size: 1.1em;
+        }
+
+        .contact-w3ls,
+        .advantages,
+        .banner-bottom,
+        .w3l-visitors-agile,
+        .plans-section,
+        .team {
+          padding: 55px 0px;
+        }
+
+        .about-wthree {
+          padding: 4em 0 15.9em 0px;
+        }
+
+        .about-wthree {
+          padding: 3em 0 13.9em 0px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        .navbar-default .navbar-toggle .icon-bar {
+          background-color: #fff;
+        }
+
+        .navbar-default .navbar-toggle {
+          border-color: #ffce14;
+          margin-top: 3px !important;
+        }
+
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+          background-color: transparent;
+        }
+
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+          border: none;
+        }
+
+        .nav>li>a {
+          display: inline-block;
+        }
+
+        .navbar-collapse {
+          box-shadow: none;
+        }
+
+        .menu__list {
+          margin: 0;
+          padding: 1em 0;
+          background: #0a0a0a;
+          text-align: center;
+        }
+
+        .menu--iris .menu__item {
+          margin: 0 0 1em;
+        }
+
+        .navbar-nav .open .dropdown-menu {
+          background-color: #1f7f9a;
+        }
+
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+          color: #fff;
+        }
+
+        .navbar-nav .open .dropdown-menu>li>a,
+        .navbar-nav .open .dropdown-menu .dropdown-header {
+          padding: 10px 15px 10px 25px;
+        }
+
+        .navbar-default .navbar-collapse,
+        .navbar-default .navbar-form {
+          border: none;
+          position: absolute;
+          width: 100%;
+          background: #a5a5a5;
+          z-index: 999;
+        }
+
+        .navbar-toggle {
+          margin: 0.8em 0 0;
+        }
+
+        .navbar-nav>li>a {
+          padding: 0 3em;
+        }
+
+        .nav-tabs {
+          margin: 2em 0;
+        }
+
+        .w3_tab_img_left {
+          padding: 0 5px;
+          width: 50%;
+          float: left;
+        }
+
+        .navbar-toggle {
+          margin: 0em 0 0;
+          border-radius: 0;
+          padding: 10px 10px;
+        }
+
+        .thim-click-to-bottom {
+          left: 48%;
+        }
+
+        .price-gd-top h4 {
+          top: 13.3em;
+          font-size: 1.2em;
+        }
+
+        .price-selet a {
+          padding: 0.3em 1.7em;
+        }
+
+        .price-gd-bottom {
+          padding: 1.3em 0em 1em;
+        }
+
+        .price-selet {
+          padding: 0.5em 0em;
+        }
+
+        .price-selet h3 {
+          padding: 0em 0em 0em 0em;
+        }
+
+        .modal-dialog {
+          width: 80%;
+          margin: 2.5em auto 0;
+        }
+
+        .contact-w3-agile2 {
+          padding: 0;
+          margin-bottom: 1em !important;
+        }
+
+        .contact-w3-agile2,
+        .contact-w3-agile1 {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        section.contact-w3ls p.contact-agile2 {
+          font-size: 14px;
+          letter-spacing: 1px;
+        }
+
+        .contact-w3-agile1 iframe {
+          height: 200px;
+        }
+      }
+
+      @media (max-width: 736px) {
+        .agileits-banner-info h4 {
+          font-size: 2.1em;
+          letter-spacing: 14px;
+        }
+
+        .agileits-banner-info h3 {
+          font-size: 15px;
+          letter-spacing: 6px;
+        }
+
+        .agileits-banner-info {
+          padding: 2.5em 0em;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 340px;
+        }
+
+        .callbacks_tabs {
+          left: 42.5%;
+          top: 46.5%;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 12px 0;
+          font-size: 14px;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 15px !important;
+        }
+
+        .banner-bottom h3 {
+          font-size: 12px;
+        }
+
+        .w3ls_banner_bottom_grids {
+          margin: 1.55em 0 0;
+        }
+
+        .w3ls-info-about {
+          left: 39%;
+          top: 104.5%;
+          width: 60%;
+          border: 7px solid #000;
+          padding: 1em 2em;
+        }
+
+        .w3ls-info-about h4 {
+          font-size: 1.05em;
+        }
+
+        .about-wthree {
+          padding: 4em 0 14em 0px;
+        }
+
+        .dmbutton {
+          padding: 9px 13px;
+        }
+
+        a.dmbutton i {
+          font-size: 15px;
+        }
+
+        .viewbox-button-next {
+          right: -33px;
+        }
+
+        .viewbox-button-prev {
+          left: -33px;
+        }
+
+        .viewbox-button-close {
+          width: 45px;
+          height: 45px;
+        }
+
+        .price-grid {
+          width: 43%;
+          margin: 0 1.5em;
+        }
+
+        .w3layouts_work_grid_left {
+          width: 70%;
+          float: none;
+          margin: 0 auto;
+        }
+
+        .w3layouts_work_grid_right {
+          float: none;
+          width: 100%;
+          margin-top: 0em;
+          padding: 2em 7em 0em;
+        }
+
+        .flex-control-nav {
+          top: 17%;
+        }
+
+        .textbox h4 {
+          font-size: 1.1em;
+          letter-spacing: 3px;
+        }
+      }
+
+      @media (max-width: 667px) {
+        .book-form p {
+          font-size: 11px;
+        }
+
+        .fields-w3ls {
+          width: 20.5%;
+          margin: 1.8em 0.5em 0 0;
+        }
+
+        .book-form input[type="text"],
+        .book-form input[type="date"],
+        .book-form input[type="time"],
+        .book-form input[type="email"],
+        .book-form .form-control {
+          font-size: 0.8em;
+        }
+
+        .book-form form input[type="submit"] {
+          font-size: 12px;
+        }
+
+        .fields-w3ls {
+          width: 20.5%;
+          margin: 1.2em 0.3em 0 0;
+        }
+
+        .book-form form input[type="submit"] {
+          margin-left: 0.6em;
+          height: 111px !important;
+        }
+
+        .w3l-slider-img {
+          top: 23.5em;
+          border: 6px solid rgba(255, 255, 255, 0.4);
+          width: 50%;
+        }
+
+        .w3ls-info-about {
+          left: 33%;
+          width: 67%;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 318px;
+        }
+
+        .team-Info-agileits {
+          padding: 1.8em 0 0 2em;
+        }
+
+        .viewbox-button-next {
+          right: 18px;
+        }
+
+        .viewbox-button-prev {
+          left: 18px;
+        }
+
+        .viewbox-button-next,
+        .viewbox-button-prev {
+          top: 54%;
+          width: 90px;
+          height: 90px;
+        }
+
+        .viewbox-body {
+          top: 52%;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 67px 5px 20px 5px;
+        }
+
+        .price-grid {
+          width: 48%;
+          margin: 0 0.3em;
+        }
+
+        .flex-control-nav {
+          top: 14%;
+        }
+
+        .book-form {
+          height: 111px;
+        }
+
+        .textbox h4 {
+          margin-top: 3em;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .agileits-banner-info h4 {
+          font-size: 2em;
+          letter-spacing: 12px;
+        }
+
+        .agileits-banner-info h3 {
+          font-size: 13px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 6px;
+          font-size: 0.7em;
+        }
+
+        .agileits_w3layouts_more a {
+          font-size: 11px;
+          margin-top: 1.3em;
+          padding: 5px 15px;
+        }
+
+        .callbacks_tabs a:after {
+          height: 9px;
+          width: 9px;
+        }
+
+        .callbacks_tabs li {
+          margin: 0px 5px;
+        }
+
+        .callbacks_tabs {
+          top: 49.5%;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 280px;
+        }
+
+        .agileits-banner-info {
+          margin-top: 1em;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 6%;
+        }
+
+        .contact-bnr-w3-agile ul li i {
+          font-size: 15px;
+          margin-right: 9px;
+        }
+
+        .contact-bnr-w3-agile ul li {
+          padding: 10px 9px;
+        }
+
+        .modal-content h4 {
+          font-size: 22px;
+        }
+
+        .modal-content h5 {
+          font-size: 20px;
+        }
+
+        .modal-content p {
+          font-size: 14px;
+          line-height: 28px;
+        }
+
+        .contact-w3ls,
+        .advantages,
+        .banner-bottom,
+        .w3l-visitors-agile,
+        .plans-section,
+        .team {
+          padding: 45px 0px;
+        }
+
+        .about-wthree {
+          padding: 3em 0 13.5em 0px;
+        }
+
+        .w3ls-info-about h4 {
+          font-size: 1em;
+        }
+
+        .w3ls-info-about {
+          padding: 1em 1.9em;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 1.8em;
+        }
+
+        .advantage-block h4 {
+          font-size: 18px;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 62px 5px 20px 5px;
+        }
+
+        .price-gd-top h4 {
+          top: 12.8em;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .thim-click-to-bottom {
+          bottom: 5%;
+        }
+
+        .book-form-left-w3layouts h2 {
+          padding: 10px 0;
+          font-size: 12px;
+        }
+
+        .fields-w3ls {
+          width: 19.5%;
+        }
+
+        .book-form p {
+          font-size: 10px;
+          letter-spacing: 1.5px;
+        }
+
+        .book-form {
+          height: 106px;
+        }
+
+        .book-form form input[type="submit"] {
+          height: 106px !important;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 14px !important;
+          letter-spacing: 1px;
+        }
+
+        .w3l-slider-img {
+          top: 18.5em;
+          width: 48%;
+        }
+
+        .w3ls-info-about {
+          left: 27%;
+          width: 73%;
+        }
+
+        .about-wthree {
+          padding: 2.6em 0 11.4em 0px;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 275px;
+        }
+
+        .advantage-block {
+          padding: 1.5em 1em;
+        }
+
+        .team-Info-agileits {
+          padding: 1.1em 0 0 1.9em;
+        }
+
+        .team-Info-agileits p {
+          margin: 0.6em 0 0.1em;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 96px 5px 20px 5px;
+        }
+
+        .price-gd-top h4 {
+          top: 11.8em;
+        }
+
+        .w3layouts_work_grid_left {
+          width: 80%;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 2em 4em 0em;
+        }
+
+        section.contact-w3ls h4 {
+          font-size: 23px;
+        }
+
+        section.contact-w3ls p.contact-agile2 {
+          line-height: 15px;
+        }
+
+        .textbox h4 {
+          margin-top: 5em;
+          font-size: 1em;
+        }
+
+        .gallery-grid {
+          padding: 0;
+          float: left;
+          width: 50%;
+        }
+
+        .textbox h4 {
+          margin-top: 3.8em;
+        }
+      }
+
+      @media (max-width: 568px) {
+        .callbacks_tabs {
+          left: 41.1%;
+        }
+
+        .thim-click-to-bottom i {
+          height: 33px;
+          width: 20px;
+          line-height: 32px;
+          font-size: 13px;
+        }
+
+        .fields-w3ls {
+          width: 67%;
+          margin: 0em auto 0;
+          float: none;
+        }
+
+        .book-form {
+          height: 285px;
+          padding: 1.5em 0 0 0;
+        }
+
+        .book-form form input[type="submit"] {
+          height: 40px !important;
+          margin: 1em 0 0 14.5em;
+        }
+
+        .banner-bottom h3 {
+          font-size: 11px;
+        }
+
+        #ui-datepicker-div {
+          width: 215px;
+        }
+
+        .w3ls-info-about {
+          left: 19.8%;
+          width: 80%;
+        }
+
+        .advantage-grid {
+          width: 85%;
+        }
+
+        .team-Info-agileits {
+          padding: 0.2em 0 0 1.9em;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 89px 5px 20px 5px;
+        }
+
+        .price-grid {
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .priceing-table-main {
+          width: 51%;
+          margin: 0 auto;
+        }
+
+        .price-grid:nth-child(1),
+        .price-grid:nth-child(2),
+        .price-grid:nth-child(3) {
+          margin-bottom: 1.5em;
+        }
+
+        .copy p {
+          font-size: 13px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .banner-top .social-bnr-agileits {
+          float: none;
+          text-align: center;
+          margin: 10px 0;
+        }
+
+        .search_form {
+          top: 89px;
+        }
+
+        .search_box:checked~.search_form {
+          top: 87px;
+        }
+
+        .contact-bnr-w3-agile ul li {
+          padding: 10px 20px;
+        }
+
+        .navbar-brand {
+          font-size: 20px;
+        }
+
+        p.logo_w3l_agile_caption {
+          letter-spacing: 2.2px;
+          line-height: 17px;
+        }
+
+        .navbar-toggle .icon-bar {
+          width: 19px;
+        }
+
+        .navbar-default .navbar-toggle {
+          margin-top: 5px !important;
+          padding: 7px 8px;
+        }
+
+        nav.navbar.navbar-default {
+          padding: 0.58em 0 0em 0;
+        }
+
+        .agileits-banner-info h4 {
+          font-size: 1.5em;
+          letter-spacing: 10px;
+        }
+
+        .agileits-banner-info p {
+          margin: 0.5em auto;
+          letter-spacing: 4px;
+        }
+
+        .agileits-banner-info {
+          padding: 2em 0em;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 250px;
+        }
+
+        .callbacks_tabs {
+          top: 46.5%;
+          left: 39.9%;
+        }
+
+        .thim-click-to-bottom {
+          left: 47.5%;
+        }
+
+        .book-form form input[type="submit"] {
+          margin: 0.9em 0 0 11em;
+        }
+
+        .banner-bottom h3 {
+          letter-spacing: 1.5px;
+        }
+
+        .cbp-ig-grid .cbp-ig-title {
+          font-size: 0.7em;
+        }
+
+        .cbp-ig-grid .cbp-ig-category {
+          font-size: 0.75em;
+        }
+
+        p.about-para-w3ls {
+          font-size: 14px;
+        }
+
+        .w3ls-info-about {
+          left: 0%;
+          width: 100%;
+          top: 108.5%;
+        }
+
+        .about-wthree {
+          padding: 2.6em 0 12em 0px;
+        }
+
+        .advantage-block p {
+          font-size: 14px;
+          line-height: 30px;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 360px;
+          width: 83%;
+          margin: 0 auto;
+          float: none;
+        }
+
+        .team-Info-agileits {
+          padding: 1.5em 0 0 1.9em;
+          width: 100%;
+          float: none;
+        }
+
+        .team-Info-agileits p {
+          font-size: 14px;
+        }
+
+        .team-Info-agileits span {
+          font-size: 11px;
+        }
+
+        .team-Info-agileits h4 {
+          font-size: 19px;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 70px 5px 20px 5px;
+        }
+
+        .viewbox-button-next,
+        .viewbox-button-prev {
+          top: 58%;
+        }
+
+        .priceing-table-main {
+          width: 61%;
+        }
+
+        .price-gd-top h4 {
+          top: 12.8em;
+          font-size: 1.1em;
+        }
+
+        .price-selet h3 {
+          font-size: 1.3em;
+        }
+
+        .price-selet h3 span {
+          font-size: 27px;
+        }
+
+        .price-selet a {
+          padding: 0.2em 1.5em;
+        }
+
+        .flex-control-nav li {
+          margin: 9px 0;
+        }
+
+        .flex-control-nav {
+          top: 13%;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 1.6em;
+        }
+
+        .w3layouts_work_grid_right p {
+          font-size: 14px;
+          letter-spacing: 0.5px;
+          line-height: 30px;
+        }
+
+        .w3layouts_work_grid_right h4 {
+          font-size: 12px;
+        }
+
+        section.contact-w3ls input#name,
+        section.contact-w3ls input#email,
+        section.contact-w3ls input#phone {
+          height: 30px;
+        }
+
+        section.contact-w3ls button.btn.btn-primary {
+          padding: 5px 20px;
+        }
+
+        section.contact-w3ls label.contact-p1 {
+          font-size: 14px;
+          padding-bottom: 2px;
+        }
+
+        .contact-w3-agile2,
+        .contact-w3-agile1 {
+          width: 100%;
+        }
+
+        .copy p {
+          font-size: 13px;
+          line-height: 29px;
+          padding: 10px 20px;
+        }
+      }
+
+      @media (max-width: 414px) {
+        .contact-bnr-w3-agile ul li {
+          padding: 10px 9px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 3px;
+        }
+
+        .callbacks_tabs {
+          left: 38.4%;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 6%;
+        }
+
+        .agileits-banner-info {
+          padding: 1.8em 0em;
+        }
+
+        .book-form form input[type="submit"] {
+          margin: 0.9em 0 0 8.5em;
+        }
+
+        .cbp-ig-grid li {
+          width: 100%;
+        }
+
+        .cbp-ig-grid li:last-child {
+          border-right: none;
+        }
+
+        .cbp-ig-grid li {
+          border-left: none;
+        }
+
+        .cbp-ig-grid li:nth-child(2) {
+          border-top: 1px solid #cfdbf3;
+          border-right: none;
+        }
+
+        .w3l-slider-img {
+          top: 19.5em;
+          width: 70%;
+          left: 3.4em;
+        }
+
+        .w3ls-info-about {
+          top: 132.5%;
+          padding: 1em 1em;
+        }
+
+        .about-wthree {
+          padding: 2.6em 0 19em 0px;
+        }
+
+        .advantage-block {
+          padding: 1.5em 0.8em;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 355px;
+          width: 100%;
+        }
+
+        .team-Info-agileits {
+          padding: 1.5em 0 0 0em;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 131px 5px 20px 5px;
+        }
+
+        .viewbox-button-next {
+          right: 2px;
+        }
+
+        .viewbox-button-prev {
+          left: 2px;
+        }
+
+        .priceing-table-main {
+          width: 72%;
+        }
+
+        .flex-control-nav {
+          top: 9%;
+          right: 2.5%;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 2em 2.5em 0em;
+        }
+
+        .w3layouts_work_grid_right h5 {
+          font-size: 1em;
+          letter-spacing: 1.5px;
+        }
+
+        .w3layouts_work_grid_right p:nth-child(4) {
+          font-size: 13px;
+          letter-spacing: 1px;
+        }
+
+        .copy p {
+          padding: 10px 21px;
+        }
+
+        .contact-bnr-w3-agile ul li {
+          width: 100%;
+          float: none;
+          text-align: center;
+        }
+
+        .search_box:checked~.search_form {
+          width: 396px;
+          padding: 10px 15px;
+        }
+
+        .contact-bnr-w3-agile {
+          float: none;
+        }
+
+        .contact-bnr-w3-agile ul li {
+          padding: 7px 0px;
+        }
+
+        .search_box:checked~.search_form {
+          top: 151px;
+        }
+
+        .search_form {
+          top: 152px;
+        }
+
+        .banner-top .social-bnr-agileits {
+          margin: 15px 0 6px;
+        }
+
+        .textbox h4 {
+          margin-top: 3.1em;
+          font-size: 0.9em;
+        }
+      }
+
+      @media (max-width: 384px) {
+        .agileits-banner-info h3 {
+          letter-spacing: 5px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 2px;
+        }
+
+        .callbacks_tabs li {
+          margin: 0px 4px;
+        }
+
+        .search_box:checked~.search_form {
+          width: 365px;
+        }
+
+        .search_form input[type="search"] {
+          width: 250px;
+        }
+
+        .search_form input[type="submit"] {
+          padding: 6.2px 12px;
+        }
+
+        .book-form form input[type="submit"] {
+          margin: 0.9em 0 0 7.3em;
+        }
+
+        .cbp-ig-grid .cbp-ig-title {
+          font-size: 0.9em;
+        }
+
+        .cbp-ig-grid .cbp-ig-category {
+          font-size: 0.95em;
+        }
+
+        .callbacks_tabs {
+          top: 44.5%;
+        }
+
+        .fields-w3ls {
+          width: 75%;
+        }
+
+        .w3ls-info-about {
+          top: 120.5%;
+        }
+
+        .w3ls-info-about p {
+          line-height: 1.8em;
+          padding: 7px 0;
+        }
+
+        .advantage-block p {
+          line-height: 28px;
+        }
+
+        .priceing-table-main {
+          width: 78%;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 1.5em;
+        }
+
+        .w3layouts_work_grid_left_pos {
+          top: 14%;
+          width: 65%;
+        }
+
+        .flex-control-nav {
+          top: 7%;
+        }
+
+        .advantage-block h4 {
+          font-size: 16px;
+        }
+      }
+
+      @media (max-width: 375px) {
+
+        .contact-w3ls,
+        .advantages,
+        .banner-bottom,
+        .w3l-visitors-agile,
+        .plans-section,
+        .team {
+          padding: 40px 0px;
+        }
+
+        .about-wthree {
+          padding: 2.2em 0 18em 0px;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 116px 5px 20px 5px;
+        }
+
+        .priceing-table-main {
+          width: 80%;
+        }
+
+        .search_box:checked~.search_form {
+          width: 357px;
+          padding: 10px 10px;
+        }
+
+        .navbar-brand {
+          font-size: 18px;
+        }
+
+        p.logo_w3l_agile_caption {
+          letter-spacing: 1.5px;
+          line-height: 14px;
+        }
+
+        .agileits-banner-info {
+          margin-top: 0.5em;
+        }
+
+        .callbacks_tabs {
+          top: 41.5%;
+        }
+
+        .advantage-block {
+          padding: 1.2em 0.8em;
+        }
+
+        .viewbox-button-next,
+        .viewbox-button-prev {
+          top: 60%;
+          width: 80px;
+          height: 80px;
+        }
+
+        .flex-control-nav li {
+          margin: 8px 0;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 290px;
+        }
+      }
+
+      @media (max-width: 320px) {
+        .search_form input[type="search"] {
+          width: 190px;
+        }
+
+        .search_box:checked~.search_form {
+          width: 303px;
+        }
+
+        .agileits-banner-info h4 {
+          font-size: 1.3em;
+          letter-spacing: 8px;
+        }
+
+        .agileits-banner-info h3 {
+          letter-spacing: 3px;
+          font-size: 12px;
+        }
+
+        .agileits-banner-info p {
+          letter-spacing: 0.4px;
+        }
+
+        .agileits_w3layouts_more a {
+          margin-top: 1.1em;
+        }
+
+        .callbacks_tabs {
+          left: 36.4%;
+        }
+
+        .w3layouts-banner-top,
+        .w3layouts-banner-top1,
+        .w3layouts-banner-top2 {
+          min-height: 230px;
+        }
+
+        .thim-click-to-bottom {
+          bottom: 5%;
+        }
+
+        .book-form form input[type="submit"] {
+          margin: 0.9em 0 0 4.6em;
+        }
+
+        .banner-bottom h3 span {
+          font-size: 13px !important;
+        }
+
+        .w3l-slider-img {
+          top: 21.5em;
+          width: 76%;
+          left: 2em;
+        }
+
+        .advantage-block p {
+          padding-left: 0.5em;
+        }
+
+        .advantage-grid {
+          width: 95%;
+        }
+
+        .tab1 .team-img-w3-agile,
+        .tab2 .team-img-w3-agile,
+        .tab3 .team-img-w3-agile,
+        .tab4 .team-img-w3-agile {
+          min-height: 245px;
+        }
+
+        .resp-tab-content {
+          padding: 20px;
+        }
+
+        .tpl6 .dmbutton {
+          margin: 99px 5px 20px 5px;
+        }
+
+        .priceing-table-main {
+          width: 90%;
+        }
+
+        .price-gd-top h4 {
+          top: 12.5em;
+          font-size: 1.05em;
+        }
+
+        h3.title-w3-agileits {
+          font-size: 1.4em;
+          line-height: 33px;
+        }
+
+        .w3layouts_work_grid_right {
+          padding: 2em 1.9em 0em;
+        }
+
+        .w3layouts_work_grid_left {
+          width: 85%;
+        }
+
+        .w3layouts_work_grid_left_pos {
+          top: 10%;
+          width: 72%;
+        }
+
+        .flex-control-nav {
+          top: 5%;
+          right: 0%;
+        }
+
+        section.contact-w3ls h4 {
+          font-size: 21px;
+        }
+
+        section.contact-w3ls p.contact-agile2 {
+          font-size: 13px;
+        }
+
+        section.contact-w3ls .contact-agileits,
+        .contact-w3-agile1 {
+          padding: 15px 17px;
+        }
+
+        .gallery-grid {
+          padding: 0;
+          float: left;
+          width: 100%;
+        }
+
+        .textbox h4 {
+          margin-top: 5.5em;
+        }
+      }
+
+      /*--responsive--*/
+
+      .w3layouts_work_grids img {
+        border-radius: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .nav-link-2 {
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      @media (min-width: 1200px) {
+        .nav-link-2 {
+          margin-top: 15px;
+        }
+
+        .nav-link-3 {
+          margin-top: 5px;
+        }
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      @media (max-width: 768px) {
+        .nav-link-2 {
+          margin-left: 25px;
+        }
+      }
+
+      .logo-text {
+        font-size: 30px;
+      }
+
+      @media (min-width: 768px) {
+
+        .mt-md-5,
+        .my-md-5 {
+          margin-top: 4rem !important;
+
+        }
+      }
+
+      @media (max-width: 281px) {
+        .logo-text {
+          font-size: 20px;
+        }
+      }
+
+      .boxes {
+        display: flex;
+      }
+
+      .box-1 {
+        background: url("https://codakid.com/wp-content/themes/bb-theme-child/images/front/blog/1.jpg") no-repeat;
+        background-size: cover;
+        /* height: 85vh; */
+      }
+
+      .box-2 {
+        background-color: white;
+        height: 80vh;
+      }
+
+
+
+      .subbox {
+        background-color: white;
+        border-radius: 8px;
+        padding: 2px 20px;
+        margin: 50vh 100px 0 20px;
+        color: #0D286C;
+        position: relative;
+
+      }
+
+      .subbox p {
+        font-size: 25px;
+      }
+
+      .box-1 h4 {
+        background-color: #0D286C;
+        color: white;
+        padding: 10px 3px;
+        text-align: center;
+        margin-left: 20vw;
+        margin-right: 10vw;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 8px;
+      }
+
+
+
+
+      @media only screen and (min-width: 768px) {
+        .box-1 {
+          width: 60%;
+        }
+
+        .btn-1 {
+          background-color: #0D286C;
+          color: white;
+          padding: 5px 10px;
+          font-size: 15px;
+          border-radius: 10px;
+          margin-left: 40%;
+        }
+
+        .box-2 {
+          padding: 40px 0px 0 80px;
+          margin: 20px;
+          margin-right: 100px;
+        }
+
+        .head-1 {
+          font-size: 30px;
+          font-weight: bold;
+          color: #0D286C;
+          padding-top: 15px;
+        }
+
+        .head-2 {
+          font-size: 12px;
+        }
+
+
+        .cards {
+          display: flex;
+        }
+      }
+
+      @media only screen and (min-width: 1920px) {
+
+        .box-1 {
+          width: 65%;
+        }
+
+        .btn-1 {
+          background-color: #0D286C;
+          color: white;
+          padding: 20px 40px;
+          font-size: 30px;
+          border-radius: 10px;
+          margin-left: 40%;
+        }
+
+
+
+        .subbox {
+          margin-top: 50vh;
+          margin-right: 30%;
+          margin-left: 10%;
+        }
+
+
+        .box-1 h4 {
+
+          margin-left: 40%;
+          margin-right: 35%;
+        }
+
+        .box-2 {
+          padding: 140px 0px 0px 100px;
+          margin: 20px;
+          margin-right: 60px;
+        }
+
+
+        .head-1 {
+          font-size: 50px;
+          font-weight: bold;
+          color: #0D286C;
+        }
+
+        .head-2 {
+          font-size: 30px;
+
+        }
+
+        .head-3 {
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+      }
+
+
+
+      @media only screen and (width: 768px) {
+        .boxes {
+          /* height: 60vh; */
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .box-1,
+        .box {
+          /* height: 60vh; */
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .box-2 {
+          height: 40vh;
+        }
+
+        .subbox {
+          margin-top: 55vh;
+        }
+
+        .form-group {
+          margin-top: 20px;
+        }
+
+        .btn-1 {
+          margin-top: 50px;
+        }
+
+        .head-2 {
+          font-size: 20px;
+        }
+
+        .head-3 {
+          font-size: 20px;
+        }
+
+        input::-webkit-input-placeholder {
+          font-size: 15px;
+        }
+      }
+
+      @media only screen and (width: 1024px) {
+        .boxes {
+          /* height: 60vh; */
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .box-1,
+        .box {
+          /* height: 60vh; */
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .box-2 {
+          height: 40vh;
+          margin-top: 170px;
+        }
+
+        .subbox {
+          margin-top: 50vh;
+        }
+
+        .btn-1 {
+          margin-top: 50px;
+        }
+
+        .head-2 {
+          font-size: 20px;
+        }
+
+        .head-3 {
+          font-size: 20px;
+        }
+
+      }
+
+      @media only screen and (max-width: 767px) {
+        .boxes {
+          flex-direction: column;
+        }
+
+        .box-1 {
+          margin-top: 45px;
+        }
+
+        .box-1 p {
+          font-size: 15px;
+        }
+
+        .box-2 {
+          height: 70vh;
+        }
+
+        .subbox {
+          margin-top: 50vh;
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+
+        .box-1 h4 {
+          font-size: 13px;
+        }
+
+        .subbox {
+          margin-top: 60vh;
+        }
+
+        .box-2 {
+          padding: 10px 0px 0 10px;
+          margin: 20px 20px 0 20px;
+        }
+
+        .head-1 {
+          font-size: 16px;
+          font-weight: bold;
+          color: #0D286C;
+        }
+
+        .head-2 {
+          font-size: 18px;
+
+        }
+
+        .head-3 {
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+
+        .btn-1 {
+          background-color: #0D286C;
+          color: white;
+          padding: 5px 10px;
+          font-size: 15px;
+          border-radius: 10px;
+          margin-left: 35%;
+          margin-top: 5px;
+        }
+      }
+
+      .box-1 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+      }
+
+      @media only screen and (min-width: 375px) and (max-width: 540px) {
+        .box-2 {
+          height: 60vh;
+        }
+      }
+
+      .card {
+        margin: 10px;
+        height: 500px;
+        border: 1.5px solid rgb(223, 223, 223);
+        padding: 20px;
+        border-radius: 12px;
+      }
+
+      .cards {
+        margin: 10px;
+      }
+
+      .style-1 {
+        font-size: 15px;
+      }
+
+      .style-2 {
+        font-size: 12px;
+      }
+
+      .course-head {
+        margin: 20px 10px;
+      }
+
+      @media only screen and (min-width: 768px) {
+        .card {
+          width: 25%;
+        }
+
+        .course-head {
+          margin-left: 25%;
+        }
+      }
+
+      .course {
+
+        /* background: #E6E6FA; */
+
+        padding: 15px;
+        /* margin-left: 30%; */
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+      }
+
+      .course a {
+        text-decoration: none;
+        color: #325288;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 6px;
+        padding: 15px 30px;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      .focus{
+        display: flex;
+        padding: 4rem 0rem 4rem 10rem;
+      }
+      .focus-text{
+        /* width: 60%; */
+      }
+      .focus-image{
+        /* margin-top: 5rem; */
+        width: 40%;
+        justify-content: right;
+      }
+
+      .focus-image img{
+         max-height: 40rem;
+      }
+
+      @media only screen and (max-width: 767px) {
+
+        .focus{
+          flex-direction: column;
+          padding: 2rem;
+        }
+        .focus-text{
+        width: 100%;
+      }
+      .focus-image{
+        width: 100%;
+        margin: 2rem;
+        padding: 0;
+        /* padding-left: 10rem; */
+        justify-content: center;
+      }
+      .focus-image img{
+        min-height: 0rem;
+         max-height: 25rem;
+      }
+
+        .card {
+          height: 530px;
+        }
+
+        .course-head {
+          text-align: center;
+        }
+
+        .course {
+          flex-direction: column;
+          margin: 10px 10px;
+          padding: 10px;
+        }
+
+        .course a {
+          margin: 5px 50px;
+          padding: 0px 0px;
+
+        }
+      }
+
+      @media only screen and (min-width: 1500px) {
+
+        .style-1 {
+          font-size: 20px;
+        }
+
+        .style-2 {
+          font-size: 17px;
+        }
+
+        .card {
+          margin: 10px;
+          padding: 40px;
+          height: 600px;
+        }
+
+        .course {
+          /* margin-left:33%; */
+          /* text-align: center; */
+        }
+
+        /* .course{
+    margin-left:30%;
+    margin-right: 630px;
+    padding: 10px 10px;
+  }
+  .course a{
+  margin: 5px 15px;
+  padding: 15px 15px;
+  font-size: 35px;
+  } */
+      }
+
+      body {
+        background: white;
+        background: rgba(15, 36, 83, 0.07);
+      }
+
+      @media only screen and (max-width: 1650px) and (min-width: 1515px) {
+        .card {
+          height: 700px;
+        }
+      }
+
+      @media only screen and (min-width: 769px) and (max-width: 1170px) {
+        .card {
+          height: 600px;
+        }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 850px) {
+        .card {
+          height: 650px;
+        }
+      }
+
+
+      .pb-3 {
+        font-size: 0.42rem;
+      }
+
+
+      .gallery-title {
+        font-size: 36px;
+        color: #FFA500;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 70px
+      }
+
+      .gallery-title:after {
+        content: "";
+        position: absolute;
+        width: 22.5%;
+        left: 38.5%;
+        height: 45px;
+        border-bottom: 1px solid #5e5e5e
+      }
+
+      .filter-button {
+        font-size: 18px;
+        border: 1px solid #FFA500;
+        border-radius: 5px;
+        text-align: center;
+        color: #FFA500;
+        margin-bottom: 30px
+      }
+
+      .filter-button:hover {
+        font-size: 18px;
+        border: 1px solid #FFA500;
+        border-radius: 5px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #FFA500
+      }
+
+      .btn-default:active .filter-button:active {
+        background-color: #FFA500;
+        color: white
+      }
+
+      .port-image {
+        width: 100%
+      }
+
+      .gallery_product {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .course{
+        justify-content: center;
+      }
+
+
+
+      .gallery_product img {
+        box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        align-content: center;
+
+      }
+
+      .gallery_product figcaption{
+        /* margin-left: 2rem; */
+        /* padding-left: 2rem; */
+         text-align: center;
+      }
+
+
+
+      .students-learn{
+        /* justify-content: center; */
+      }
+
+      .image-container{
+        margin: 0 15%;
+      }
+
+      /* .students-learn{
+        justify-content: center;
+      } */
+
+      .students-learn figcaption{
+       text-align: center;
+      }
+
+      .students-learn img{
+        height: 250px;
+        border-radius: 50%;
+        margin: 1.75rem;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .students-learn img{
+        height: 100px;
+        border-radius: 50%;
+        margin: 1rem;
+      }
+      }
+
+      @media only screen and (min-width: 1750px) {
+        .students-learn figcaption{
+          text-align: center;
+          margin-left: -8rem;
+       }
+      }
+
+    .unique-box h5{
+      font-weight: bold;
+      padding: 1.5rem 0;
+      font-size: 3.5rem;
+    }
+
+    .unique-box h4{
+      font-weight: bold;
+      font-size: 2rem;
+      padding: 2rem 0;
+    }
+
+    @media only screen and (max-width: 930px) {
+      .unique-box h5{
+      font-size: 2.5rem;
+      }
+      .unique-box h4{
+      font-size: 1rem;
+     }
+    }
+
+    @media only screen and (max-width: 609px) {
+      .unique-box h5{
+      font-size: 1.2rem;
+      }
+      .unique-box h4{
+      font-size: 0.7rem;
+     }
+    }
+
+    .line-1{
+      border-bottom: 1px white dashed;
+      margin-left: 50%;
+    }
+
+   .line-2{
+      border-bottom: 1px white dashed;
+      margin-right: 50%;
+    }
+
+    .fa-check{
+      color: green;
+      padding-right: 0.5rem;
+      /* padding-left: 0.25rem; */
+    }
+
+    .fa-times{
+      color: red;
+      padding-right: 0.5rem;
+      /* padding-left: 0.25rem; */
+    }
+
+    </style>
+
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-icon-top navbar-expand-lg navbar-light bg-light fixed-top py-3" id="nav1">
+    <a href="#" class="navbar-brand">
+      <!-- <img src="./images/logo.png" height="70px" width="15%" class="d-inline-block align-top"> -->
+      <span class="logo-text" style="line-height: 55px;color:#0D286C; font-weight: bold; ">CodesandBots</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="size:20px"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="size:50px;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+        </li>
+        <li class="nav-item">
+
+        </li>
+        <li class="nav-item">
+
+        </li>
+        <li class="nav-item dropdown">
+
+        </li>
+      </ul>
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+
+            <h4 style="padding-right:20px; font-size: 22px; color:grey" onMouseOver="this.style.color='blue'"
+              onMouseOut="this.style.color='grey'">Home</h4>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <h4 style="padding-right:20px; font-size: 22px; color:grey" onMouseOver="this.style.color='blue'"
+              onMouseOut="this.style.color='grey'">Curriculum</h4>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#footer">
+            <h4 style="padding-right:20px; font-size: 22px; color:grey" onMouseOver="this.style.color='blue'"
+              onMouseOut="this.style.color='grey'">Contact Us</h4>
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <!-- <button  class=" btn-primary" type="button" style="font-size: 12px; font-weight:bold"  >Learn in School</button> -->
+        <button class="btn-primary" type="button"
+          style="border-radius:5px; border:blue; font-size: 17px; height:50px ; font-weight:bold; background-color:#325288">Learn
+          in School</button>
+        <!-- style="border-radius:5px; border:blue; font-size: 17px; height:50px ; font-weight:bold" onMouseOver="this.style.backgroundColor='lightblue'" onMouseOut="this.style.backgroundColor='grey'" -->
+      </form>
+    </div>
+  </nav>
+  <br>
+
+
+  <section class="boxes" style="background-color: #F6F6F6;">
+
+    <div class="box box-1" style="margin-top:70px;">
+      <div id="circle-text" style="text-align: center;"><b>LIVE SESSIONS <br><b>+</b><br> ONLINE LECTURES</b></div>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vel sequi. Eius eaque sequi quae ut laboriosam voluptatem consequuntur, voluptate repellendus repellat minima eos soluta ipsam modi, facere fugiat tempora.</p> -->
+      <div  class="subbox" id="b1">
+        <p style="font-weight: bold;">Learn Coding,Robotics,IOT for FREE For Class 1-12</p>
+      </div>
+      <div class="subbox" id="b2">
+        <p style="font-weight: bold;">Be a Math Genius, Learn Vedic Maths for Free for class 1-12</p>
+      </div>
+
+      <h4><a style="color: white" href="#course-section">Enroll now for free  </a><i class="fas fa-arrow-right"></i></h4>
+    </div>
+
+
+    <div class="mt-3 mt-md-5" style="background-color: #F6F6F6; padding:35px 40px 20px 80px " id="place">
+      <form class="sign-up">
+
+        <!-- <h2 class="heading mb-4" style="color:#0D286C; font-size: 4rem; text-align:center;">LET'S GET STARTED</h2> -->
+        <p style="color:#0D286C; font-size: 4rem; font-weight: bold; margin-top: 1.3rem;">LET'S GET STARTED</p>
+        <br>
+        <div class="form-group fone mt-2 "> <i class="fas fa-lg fa-child" style="color:#0D286C;"></i> <label for="name"
+            style=" color:#0D286C; font-size:2rem;">Child's Name</label>
+          <input class="form-control" type="text" name="name" id="name" class="border-bottom border-primary"
+            style="font-size:110%; color:#0D286C; border-radius:15px">
+        </div>
+        <div class="form-group fone mt-2 "> <span class="fa fa-lg fa-user" style="color:#0D286C;"></span> <label
+            for="pname" style=" color:#0D286C;font-size:2rem;">Parent's Name</label>
+          <input class="form-control" type="text" name="name" id="parentname" class="border-bottom border-primary"
+            style="font-size:110%; color:#0D286C;border-radius:15px">
+        </div>
+        <div class="form-group fone mt-2 "> <span class="fa fa-lg fa-volume-control-phone"
+            style="color:#0D286C;"></span> <label for="pname" style=" color:#0D286C;font-size:2rem;">Mobile
+            Number</label>
+          <input class="form-control" type="text" name="phone" id="phone" class="border-bottom border-primary"
+            style="font-size:100%; color:#0D286C; border-radius:15px">
+        </div>
+        <div class="form-group fone mt-2  styled-select"> <span class="fa fa-lg fa-book" style="color:#0D286C;"></span>
+          <label for="pname" style=" color:#0D286C;font-size:2rem;">Course 🡇</label>
+          <select class="form-control " id="subject" name="" class="border-bottom border-primary service-area"
+            style="font-size:110%; webkit-appearance: none; border-radius:15px">
+            <!-- <option disabled selected value class="service-small" value=""></option> -->
+            <option class="service-small" >CODING</option>
+            <option class="service-small" >Robotics</option>
+            <option class="service-small" >IOT</option>
+            <option class="service-small" value="Rubix_Cubes">Rubix Cubes</option>
+          </select>
+        </div>
+        <div class="form-group fone mt-2 styled-select"> <span class="fa fa-lg fa-graduation-cap"
+            style="color:#0D286C;"></span><label for="pname" style="color:#0D286C; font-size:2rem;">Class 🡇</label>
+
+          <select name="" id="child_class" class=" form-control" class="border-bottom border-primary service-area" style="font-size:110%; border-radius:15px">
+            <!-- <option disabled selected value class="service-small" value=""></option> -->
+            <option class="service-small" value="1">1</option>
+            <option class="service-small" value="1">2</option>
+            <option class="service-small" value="1">3</option>
+            <option class="service-small" value="1">4</option>
+            <option class="service-small" value="1">5</option>
+            <option class="service-small" value="1">6</option>
+            <option class="service-small" value="1">7</option>
+            <option class="service-small" value="1">8</option>
+            <option class="service-small" value="1">9</option>
+            <option class="service-small" value="1">10</option>
+        </div>
+
+
+        <!-- <div class="form-group fone mt-2"> <i class="fas fa-2x fa-child" style="color:#0D286C;"></i> <input type="name" class="form-control" placeholder="Child's Name" class="border-bottom border-primary" style="font-size:140%; color:#0D286C;" > </div> -->
+        <!-- <div class="form-group fone mt-2"> <i class="fas fa-lg fa-user" style="color:#0D286C;"></i> <input type="name" class="form-control" placeholder=" Parent's Name" class="border-bottom border-primary" style="font-size:140%; color:#0D286C;"> </div>
+               <div class="form-group fone mt-2"> <i class="fas fa-lg fa-envelope"></i> <input type="email" class="form-control" placeholder="Work email"> </div> -->
+        <!-- <div class="form-group fone mt-2"> <i class="fas fa-lg fa-lock"></i> <input type="password" class="form-control" placeholder="Password">
+
+               </div> -->
+        <input class="form ml-0" style="background-color:#F6F6F6" disabled>
+
+        <!-- <label class="form-check-label ml-3" style="font-size:19px"> Click Below to Enroll!</label> -->
+      </form>
+      <button type="button" class="btn btn-primary mt-5" style="background-color:#0D286C; font-size:19px; border-radius:10px"
+        id="form-block1">Enroll now</button>
+      <!-- <input type="button" value="Log in" class="btn btn-primary btn-block mb-3" style="background-color:#0D286C; font-size:19px" id="form-block1">
+             <!-- <p class="exist mt-4">Existing user? <span>Log in</span></p> -->
+    </div>
+    
+  </section>
+<script>
+  function validinfo(data){
+    if(!(data.child_name)){
+      alert('Child_Name Required')
+      return false;
+    }
+    else if(!(/^[a-zA-Z]([a-zA-z\s]){3,40}$/.test(data.child_name))){
+      alert('Invalid Child_Name')
+      return false;
+    }
+    if(!data.parent_name){
+      alert('Parent_Name Required')
+      return false;
+    }
+    else if(!(/^[a-zA-Z]([a-zA-z\s]){3,40}$/.test(data.parent_name))){
+      alert('Invalid Parent_Name')
+      return false;
+    }
+    if(!data.phone_number){
+      alert('Phone number Required')
+      return false;
+    }
+    else if(!(/^\d{10}$/.test(data.phone_number))){
+      alert('Invalid Phone number')
+      return false;
+    }
+    return true;
+}
+
+const btn = document.getElementById('form-block1');
+btn.addEventListener('click',(e)=>{
+  const child_name=document.getElementById('name');
+  const parent_name=document.getElementById('parentname');
+  const phone_number=document.getElementById('phone');
+  const course =document.getElementById('subject');
+  const child_class =document.getElementById('child_class');
+  const data = {
+    child_name:child_name.value,
+    parent_name:parent_name.value,
+    phone_number:phone_number.value,
+    course:course.value,
+    child_class:child_class.value
+  }
+  localStorage.setItem('usernumber',phone_number.value);
+  localStorage.setItem('usercourse',course.value);
+  localStorage.setItem('username',child_name.value);
+
+  // console.log(data);
+
+  const product = "product"
+  if(validinfo(data)){
+    child_name.value="";
+    parent_name.value="";
+    phone_number.value="";
+    axios.post('http://localhost:3000/register',{data:data},{headers:{"Access-Control-Allow-Origin":"*"}},{ withCredentials: true }).then((res)=>{
+      let token = res.data.token;
+      localStorage.setItem("SavedToken", 'Bearer ' + token);
+      window.location.assign(`/${product}.html`);
+    }).catch((err)=>{
+      alert(err);
+      // console.log(err)
+    })
+  }
+})
+
+
+
+
+
+// $("#form-block1").click((e)=>{
+// const child_name= $('#name').val()
+// const parent_name=$('#parentname').val()
+// const phone_number=$('#phone').val()
+// const course = $("#subject option:selected").text();
+// const child_class = $('#child_class option:selected').text();
+// const data = {
+//   child_name:child_name,
+//   parent_name:parent_name,
+//   phone_number:phone_number,
+//   course:course,
+//   child_class:child_class
+// }
+// axios.post('http://localhost:3000/register',{data:data},{headers:{"Access-Control-Allow-Origin":"*"}},{ withCredentials: true }).then((e)=>{
+//   console.log(e)
+// }).catch((err)=>{
+//   console.log(err)
+// })
+// // fetch('http://localhost:3000/register', {
+// //     method: 'POST',
+// //     mode: 'same-origin',
+// //     credentials: 'include', // Don't forget to specify this if you need cookies
+// //     body: data
+// // })
+// })
+</script>
+
+
+  <!-- <div class="block-left">
+      <div id="circle-text" style="text-align: center;"><b>LIVE SESSIONS + ONLINE LECTURES</b></div>
+    	<div class="maintain" id="div1">
+            <div class="text-block" >
+              <h4  style="color: #1F2979;">Learn <span ><b>Coding , Robotics , IOT</b></span></h4>
+              <p style="color: #1F2979;">Acquire skills of fututre coding , Robotics and IOT <span><b>FREE</b></span> for class 1-12</p>
+            </div>
+
+            <button id="coding-button" style="border:2px solid #1226db;padding-left: 50px;padding-right: 50px;text-align: center;" onclick="Openform()"><b>Get Started</b></button>
+        </div>
+        <div class="maintain" id="div2">
+            <div class="text-block" style="background-color:white ;color:#1F2979 ;">
+              <h4>Learn <span><b>Vedic Maths</b></span></h4>
+              <p id="demo">Be a Maths Genius , Learn Vedic Maths for <span style="color: #1F2979;"><b>FREE</b></span> for class 1-12</p>
+            </div>
+            <button id="coding-button" onclick="Openform()" style="border:1px solid #1226db;padding-left: 50px;padding-right: 50px;text-align: center;" onclick="Openform()"><b>Get Started</b></button>
+        </div>
+
+    	<div class="container mt-5 mb-5 <div class="d-flex flex row g-0">
+        <div class="col-md-6 mt-3">
+            <div class="card card1 p-3">
+                <div class="d-flex flex-column"> <span class="login mt-3">Log in</span> </div>
+                <div class="input-field d-flex flex-column mt-3"> <span>Email</span> <input class="form-control" placeholder="email@example.com"> <span class="mt-3">Password</span> <input class="form-control" placeholder="Enter Your Password"> <button class="mt-4 btn btn-dark d-flex justify-content-center align-items-center">Login</button>
+                    <div class="mt-3 text1"> <span class="mt-3 forget">Forget Password?</span> </div>
+                    <div class="text2 mt-4 d-flex flex-row align-items-center"> <span>Don't have an account?<span class="register">Register here</span></span> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</div>
+<div class= "block-right" id="formb">
+        <form style="background-color: #99A3F6;" id="form-block">
+            <h1 style="text-align: center;margin-bottom: 50px;"><b>Fill In This Form To Get Started</b></h1>
+            <div class="form-outline mb-4">
+              <input type="text" style="padding: 10px;border-radius:10px ;" id="form3Example3" class="form-control" placeholder="Enter Name Of Your Child" />
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" style="padding: 10px;border-radius:10px ;" id="form3Example4" class="form-control" placeholder="Enter Name Of The Guardiam" />
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="text" style="padding: 10px;border-radius:10px ;" id="form3Example4" class="form-control" placeholder="Enter Your Mobile Number" />
+              </div>
+
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <select class="form-select" style="padding: 10px;border-radius:10px ;" aria-label="Default select example">
+                        <option>Class</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <select class="form-select" style="padding: 10px;border-radius:10px ;" aria-label="Default select example">
+                        <option>Course</option>
+                        <option value="coding">Coding</option>
+                        <option value="math">Math</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit" style="padding: 0px ;border-radius:15px ;width: 100%;" class="btn btn-primary btn-lg btn-block mb-4" >Submit</button>
+              </div>
+
+
+          </form>
+    </div> -->
+
+  <div class="w3l-visitors-agile">
+
+    <div class="container">
+
+      <h3 class="title-w3-agileits title-black-wthree"
+        style="color: #0f2453;font-family:  'Open Sans', sans-serif;;font-size: 8rem; margin-top: 0px; line-height: 1.2;font-weight: bold;">OUR MISSION</h3>
+      <h3 class="title-w3-agileits title-black-wthree"
+        style=" font-family:  'Open Sans', sans-serif; font-size: 2.5rem;margin-bottom: 3em;color: black;line-height: 1.3;text-align:center;font-weight: 500;">
+        <b>Is to teach 21st Century skills like
+          coding,Robotics,Internet of Things for Free to kids to give them the exposure at an early age</b>
+      </h3>
+    </div>
+    <div class="w3layouts_work_grids">
+      <section class="slider">
+        <div class="flexslider">
+
+          <div class="flex-viewport" style="overflow: hidden; position: relative;">
+            <ul class="slides"
+              style="width: 100%; transition-duration: 0.6s; transform: translate3d(-1500px, 0px, 0px);">
+              <li class="clone" style="width: 500px; float: left; display: block;">
+                <div class="w3layouts_work_grid_left">
+                  <img src="images/5.svg" alt=" " class="img-responsive" style="padding:15px 0px 15px 25px;">
+                  <div class="w3layouts_work_grid_left_pos">
+
+                  </div>
+                </div>
+                <div class="w3layouts_work_grid_right">
+                  <h4 >
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                  <p style="text-align: center;color: black;font-size: 45px;line-height: 1.2;">Learn For Free</p>
+                  <p style="text-align: justify; margin:30px 40px 30px;">At Codesandbots.Com Learn All The Futuristic Technology For Free No
+                    Matter If You Are A School Student , Learn From Home Itself. We provide learning based on advanced technology and also in the most innovative way for your child.</p>
+                  <h4 style="text-align: right;">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                </div>
+                <div class="clearfix"> </div>
+              </li>
+              <li style="width: 375px; float: left; display: block;" class="">
+                <div class="w3layouts_work_grid_right">
+                  <h4>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                  <p style="text-align: center;color: black; font-size: 45px;line-height: 1.2">Free Doubt Sessions</p>
+                  <p style="text-align: justify; margin:30px 40px 30px;">Learning Will be Fun, Because Our Industry Experts Will Always Be there
+                    for Free to help clear the doubts of students and guide them while they learn various technologies and get hands on experience on their
+                    enrolled courses.</p>
+                  <h4 style="text-align: right;">
+
+
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                </div>
+                <div class="w3layouts_work_grid_left">
+                  <img src="images/54.svg" alt=" " class="img-responsive" style="padding:15px 0px 15px 25px">
+                  <div class="w3layouts_work_grid_left_pos">
+
+                  </div>
+                </div>
+
+                <div class="clearfix"> </div>
+              </li>
+              <li style="width: 375px; float: left; display: block;" class="">
+                <div class="w3layouts_work_grid_left">
+                  <img src="images/52.svg" alt=" "  style="padding:15px 0px 15px 25px; height: 10%; width: 100%;">
+                  <div class="w3layouts_work_grid_left_pos">
+
+                  </div>
+                </div>
+                <div class="w3layouts_work_grid_right" style="float: left;">
+                  <h4>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                  <p style="text-align: center;color: black; font-size: 45px;line-height: 1.3">Earn A Well Recognised
+                    Certificate</p>
+                  <p style="text-align: justify; margin:30px 40px 30px;">After You Complete Your Course Just Give A Small Practical Exam. No
+                    Theory Test Needed. Just Apply Your Skill And Make A Real World Project And You Will Pass The Exam
+                    And
+                    Get A Certificate. </p>
+                  <h4 style="text-align: right;">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                  </h4>
+                </div>
+                <div class="clearfix"> </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <p id="course-section" style=" font-size: 6.5rem; font-weight: bold; color: #0D286C; text-align: center; margin-top: 5rem;">Courses designed
+    for every child</p>
+
+
+  <div  class="container">
+  <div class="course">
+    <a style="color: #0D286C;" id="class1" onclick="TakeToCard1()">CLASSES 1-4</a>
+    <a style="color: #0D286C;" id="class2" onclick="TakeToCard2()">CLASSES 5-8</a>
+    <a style="color: #0D286C;" id="class3" onclick="TakeToCard3()">CLASSES 9-12</a>
+  </div>
+  </div>
+
+  <div class="cards">
+    <br>
+    <div class="card" id="card1">
+      <p style="color: #FFD700; font-weight: bold;">BASIC</p>
+      <p style="color: black; font-weight: bold;">Vedic Maths</p>
+      <br>
+      <p style="color: black;" class="style-1">TOPICS COVERED</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">TOOLS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">PROJECTS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br><br>
+      <button
+        style="color: white; font-size: 17px; background-color: #0D286C; padding: 10px; text-align: center; border-radius: 10px;">Enroll now for free</button>
+    </div>
+    <div class="card" id="card2">
+      <p style="color: #FFD700; font-weight: bold;">BASIC</p>
+      <p style="color: black; font-weight: bold;">Introduction to Robotics</p>
+      <br>
+      <p style="color: black;" class="style-1">TOPICS COVERED</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">TOOLS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black; " class="style-1">PROJECTS</p>
+      <p style="color: gray; " class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br><br>
+      <button
+        style="color: white; font-size: 17px; background-color: #0D286C; padding: 10px; text-align: center; border-radius: 10px;">Enroll now for free</button>
+    </div>
+    <div class="card" id="card3">
+      <p style="color:#dc143c; font-weight: bold;">STANDARD</p>
+      <p style="color: black; font-weight: bold;">Introduction to IoT</p>
+      <br>
+      <p style="color: black; " class="style-1">TOPICS COVERED</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">TOOLS</p>
+      <p style="color: gray; " class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">PROJECTS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br><br>
+      <button
+        style="color: white; font-size: 17px; background-color: #0D286C; padding: 10px; text-align: center; border-radius: 10px;">Enroll now for free</button>
+    </div>
+    <div class="card" id="card4">
+      <p style="color: #9370DB; font-weight: bold;">PREMIUM</p>
+      <p style="color: black; font-weight: bold;">Introduction to Coding</p>
+      <br>
+      <p style="color: black;" class="style-1">TOPICS COVERED</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">TOOLS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br>
+      <p style="color: black;" class="style-1">PROJECTS</p>
+      <p style="color: gray;" class="style-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+        provident.</p>
+      <br><br>
+      <button
+        style="color: white; font-size: 17px; background-color: #0D286C; padding: 10px; text-align: center; border-radius: 10px;">Enroll now for free</button>
+    </div>
+
+  </div>
+
+  <div class="image-container">
+    <div class="row">
+      <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 style="color: #0D286C; font-size: 7rem; text-align: center; font-weight: bold; margin: 2rem 0 2rem 0;">Make
+          your child future ready</h1>
+        <p style="font-size: 3rem; text-align: center; font-weight: bold; margin: 2rem 0 4rem 0;">21st century workforce
+          will be centered around new computational technologies like ML, AI, VR, AR, Blockchain, IoT and Robotics. An
+          early start to coding will make them the creators of tomorrow.</p>
+      </div>
+      <!-- <div align="center"> <button class="btn btn-default filter-button" data-filter="all">All</button> <button class="btn btn-default filter-button" data-filter="hdpe">Vegetarian</button> <button class="btn btn-default filter-button" data-filter="sprinkle">Non Vegetarian</button> <button class="btn btn-default filter-button" data-filter="spray">Sides</button> <button class="btn btn-default filter-button" data-filter="irrigation">Meal below 99</button> </div> <br /> -->
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"><a href=""> <img
+            src="images/secton 3-1.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Build logical thinking</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle"><a href=""> <img
+            src="images/3.2.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Sharpen problem solving</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"><a href=""> <img
+            src="images/3.3.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Increase concentration</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img
+            src="images/3.4.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Foster imagination and creativity</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img
+            src="images/3.5.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Enhances their ability to build</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img
+            src="images/3.6.svg"
+            class="img-responsive"></a>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Opens up career opportunities</figcaption>
+      </div>
+      <!-- <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033829/Restaurant/img-7.jpg" class="img-responsive"></a> </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-3.jpg" class="img-responsive"></a> </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-5.jpg" class="img-responsive"></a> </div> -->
+    </div>
+  </div>
+
+  <div class="focus" style="background-color: #0D286C;">
+    <div class="focus-image img-responsive">
+      <img src="images/winner.svg" alt="">
+    </div>
+      <div class="focus-text" style="margin-top:20px;">
+      <p style="color: white; font-size: 4.5rem; font-weight: bold;">
+        We also Focus on Overall<br>Academic Excellence<br> of your Child
+      </p>
+      <p  style="color: #1167b1; font-size: 2.2rem;">We help students</p>
+      <ul  style="color: white; font-size: 2.5rem;">
+       <li>Master advanced Maths and Science Concepts</li>
+       <li>Build School Projects</li>
+       <li>Get ready to Participate in Competitions</li>
+      </ul>
+      </div>
+
+  </div>
+
+  <div class="image-container students-learn">
+    <div class="row" style="align-content: center; ">
+      <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 style=" color: #0D286C; font-size: 5rem; text-align: center; font-weight: bold; margin: 5rem 0 5rem 0;">STUDENTS WILL LEARN TO BUILD</h1>
+
+      </div >
+      <!-- <div align="center"> <button class="btn btn-default filter-button" data-filter="all">All</button> <button class="btn btn-default filter-button" data-filter="hdpe">Vegetarian</button> <button class="btn btn-default filter-button" data-filter="sprinkle">Non Vegetarian</button> <button class="btn btn-default filter-button" data-filter="spray">Sides</button> <button class="btn btn-default filter-button" data-filter="irrigation">Meal below 99</button> </div> <br /> -->
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" style="display: flex; flex-direction: column;"><a href=""> <img
+            src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOL95PbyH_TfVRpQRUaS28Jz9U8edTlMfUxRSAx8nN7M7ltlHB4ZfhdSofNkTuOaYVfM&usqp=CAU
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Apps & Websites</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle"><a href=""> <img
+            src="https://media.istockphoto.com/vectors/video-game-controller-icon-silhouette-vector-id942803814?k=6&m=942803814&s=612x612&w=0&h=yBpFQVMZPbwYjXS7Qco22rF49x-chXeeuFMreWJ1aG0="
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Games</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"><a href=""> <img
+            src="https://www.phuket-technology.com/wp-content/uploads/2015/02/icon-smart-house.png"
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Smart Homes</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img
+            src="https://previews.123rf.com/images/victor85/victor851711/victor85171100175/90388234-drone-circle-icon-with-long-shadow-flat-design-style-drone-simple-silhouette-modern-minimalist-round.jpg"
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Drones</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img
+            src="https://www.greenlawfirmpc.com/wp-content/uploads/2017/11/self-driving-car-icon-sm.jpg"
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Self-driven Car</figcaption>
+      </div>
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/000/450/236/small/Astronomy__28385_29.jpg"
+            class="img-responsive"></a>
+            <br>
+        <figcaption style="font-size: 2.7rem; font-weight: bold;">Satellite-Image Capture</figcaption>
+      </div>
+      <!-- <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033829/Restaurant/img-7.jpg" class="img-responsive"></a> </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-3.jpg" class="img-responsive"></a> </div>
+          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"><a href=""> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1564033828/Restaurant/img-5.jpg" class="img-responsive"></a> </div> -->
+    </div>
+     <div style="text-align: center;">
+      <a href="#navbar">
+        <button style="background-color: #0D286C; text-align: center; padding: 1rem 6rem; margin-bottom: 2rem; border-radius: 4rem; color: white; font-weight: bold; font-size: 2rem;">ENROLL NOW</button>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="why">
+    <h1 style="color:white; font-size: 7rem; text-align: center; font-weight: bold; padding:70px 30px 0px;">WHY CHOOSE US ?</h1>
+
+  <div class="containernew">
+  <div class="row">
+  <div class="col-md-4">
+  <div class="card0">
+  <div class="face front-face"> <img src="https://image.similarpng.com/very-thumbnail/2020/12/Illustration-of-Google-icon-on-transparent-background-PNG.png" alt="" class="profile">
+  <div class="name"> Google Coding Contest </div>
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> We prepare students for competitive tests like for the Google Coding Contest.</div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="card0">
+  <div class="face front-face"> <img src="https://cdn.iconscout.com/icon/free/png-512/microsoft-26-722716.png" alt="" class="profile">
+  <div class="name"> Microsoft Coding Contest </div>
+
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> We prepare students for competitive tests like for the Microsoft Coding Contest. </div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="card0">
+  <div class="face front-face"> <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX38086759.jpg" alt="" class="profile">
+  <div class="name"> Industry Certification </div>
+
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> After completion of our Program Students will receive Industry Recognised Certificate. </div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="card0" style="margin-top:35px;">
+  <div class="face front-face"> <img src="https://lh3.googleusercontent.com/proxy/JahsGGnn00OEdF0xEKXLuxASUmKIzZ2nrqrwMxSph4cdMs6bRKfMRtHWTvdxQH-egzwMc7HUqVfaNpFwPhFVbUiyjisiGMnrDLPo" alt="" class="profile">
+  <div class="name"> Experienced Instructors </div>
+
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> We will be providing expereinced Instructors and LED Training in Classrooms</div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+  <div class="card0" style="margin-top:35px;">
+  <div class="face front-face"> <img src="https://www.commonfloor.com/articles/wp-content/uploads/2012/08/hcdvc2.jpg" alt="" class="profile">
+  <div class="name"> Doubt Clearing Sessions </div>
+
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> Students can clear doubts in Online Coding Classes .</div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4" >
+  <div class="card0" style="margin-top:35px;">
+  <div class="face front-face"> <img src="https://www.bhphotovideo.com/images/images2500x2500/ubtech_robotics_jra0203_overdrive_robot_kit_1428818.jpg" alt="" class="profile">
+  <div class="name" > Robotics Kit </div>
+
+  </div>
+  <div class="face back-face"> <span class="fas fa-quote-left"></span>
+  <div class="testimonial" style="font-size:2.2rem"> Robotics Kit will be provided to Students for Projects and we also assure Guaranteed Hands on Projects done by Kids. </div> <span class="fas fa-quote-right"></span>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+   <div class="unique">
+    <h1 style="color:#0D286C; font-size: 6.5rem; text-align: center; font-weight: bold; margin: 4rem 0 4rem 0;">What we provide is Unique</h1>
+    <div class="unique-box" style="margin: 1rem 1rem 1rem 1rem; display: flex;">
+      <div class="b1" style="background-color: #0D286C; width: 50%; border-radius: 3rem 0 0 3rem;">
+       <h5 style="color: white;text-align: center;">Codesandbots.com</h5>
+       <div class="line-1" ></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Students Performance shared with Parents</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Coding classes provided</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Robotics classes Provided</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>IOT classes Provided</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Robotics kit Provided</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Live Projects with Advanced Technology</h4>
+        <div class="line-1"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Free Learning and Doubt Clearing Classes</h4>
+      </div>
+      <div class="b2" style="background-color: #325288; width: 50%; border-radius: 0 3rem 3rem 0;">
+        <h5 style="color: white; text-align: center;">Other online platforms</h5>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>No Performance Evaluations</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-check"></i>Coding classes provided</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>No Robotics classes</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>No IOT classes</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>No Robotics kit Provided</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>No Live Projects</h4>
+        <div class="line-2"></div>
+        <h4 style="color: white;text-align: center;"><i class="fas fa-times"></i>Not Free & no Doubt Clearing Classes</h4>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-lg-start bg-light text-muted imag" id='footer'>
+
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class=" font-weight-bold mb-4"
+                        style="color: rgb(44, 17, 160); font-size: 30px; margin-top: 50px;font-weight: bold;">
+                        <i class="fas fa-gem me-3"></i>codesandbots
+                    </h6>
+                    <p style="font-size:20px;margin-left:20px;">
+                        A Company of AVIPL
+                    </p>
+                    <div class="social " style="margin-left: 35px;">
+
+
+                        <a class="social-icon" data-tooltip="Twitter" href="/">
+                            <i class="fa fa-twitter mx-1 " aria-hidden="true"></i>
+                        </a>
+                        <a class="social-icon " data-tooltip="Facebook" href="/">
+                            <i class="fa fa-facebook mx-1 " aria-hidden="true"></i>
+                        </a>
+
+                        <a class="social-icon" data-tooltip="LinkedIn" href="/">
+                            <i class="fa fa-linkedin mx-1" aria-hidden="true"></i>
+                        </a>
+                        <a class="social-icon" data-tooltip="YouTube" href="/">
+                            <i class="fa fa-instagram mx-1" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-1 col-xl-3 mx-auto mb-4">
+
+                    <h5 className="text-uppercase mb-4 mt-1 font-weight-bold ml-5"
+                        style=" color: #2c2694; font-size: 25px; margin-left: 30px; margin-top: 50px; font-weight: 700;"
+                        }}>
+                        CONTACT US
+                    </h5>
+                    <ul className="list-unstyled font-weight-bold"
+                        style="font-weight: 800; color: #4b4d4b; font-size: 18px;list-style: none;">
+                        <li>
+                        <li>Plot No.19, G1-Block, South City -II, Gurugram
+                            Haryana
+                            <p>India</p>
+                        </li>
+                        </li>
+                        <li>
+                        <li>Phone:
+                        <li>+91-7976391232</li>
+                        Email:<p>
+                            e-businessinnovator@avipl.in
+                        </p>
+                        </li>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-2 bgcolor" style="color: #2c2694;">
+        <p class="text-reset " href="/"> © Copyright
+            codesandbots. All Rights Reserved</p>
+        <p>Designed by AVIPL
+        </p>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" href="css/swipebox.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/jquery.swipebox.min.js"></script>
+  <script type="text/javascript">
+    jQuery(function ($) {
+      $(".swipebox").swipebox();
+    });
+  </script>
+
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function (slider) {
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+    var images = ["vedic.svg", "codingP.svg"];
+    $(function () {
+      var i = 0;
+      $(".box-1").css("background-image", "url(images/" + images[i] + ")");
+      $("#b1").hide()
+      setInterval(function () {
+        i++;
+        if (i == images.length) {
+          i = 0;
+        }
+        $(".box-1").fadeOut("slow", function () {
+          $(this).css("background-image", "url(images/" + images[i] + ")");
+          $(this).fadeIn("slow");
+          if (i == 0) {
+            $("#b1").hide()
+            $("#b2").fadeIn()
+          }
+          if (i == 1) {
+            $("#b2").hide()
+            $("#b1").fadeIn()
+          }
+        });
+      }, 4100);
+    });
+
+
+    function Openform() {
+      document.getElementById("form-block1").style.backgroundColor = "#1226db";
+
+      // document.getElementById("form-block1").style.color="white";
+      setTimeout("setToBack()", 300);
+    }
+
+    function setToBack() {
+      document.getElementById("form-block1").style.backgroundColor = "#0D286C";
+
+      // document.getElementById("form-block1").style.color="black";
+    }
+
+    function TakeToCard1() {
+      document.getElementById("class1").style.backgroundColor = "#1226db";
+      document.getElementById("class1").style.color = "white";
+      document.getElementById("class2").style.backgroundColor = "white";
+      document.getElementById("class2").style.color = "#325288";
+      document.getElementById("class3").style.backgroundColor = "white";
+      document.getElementById("class3").style.color = "#325288";
+      document.getElementById("card1").style.backgroundColor = "#E6E6FA";
+      setTimeout("setToBack1()", 500);
+    }
+    function TakeToCard2() {
+      document.getElementById("class2").style.backgroundColor = "#1226db";
+      document.getElementById("class2").style.color = "white";
+      document.getElementById("class1").style.backgroundColor = "white";
+      document.getElementById("class1").style.color = "#325288";
+      document.getElementById("class3").style.backgroundColor = "white";
+      document.getElementById("class3").style.color = "#325288";
+      document.getElementById("card2").style.backgroundColor = "#E6E6FA";
+      setTimeout("setToBack2()", 500);
+      document.getElementById("card3").style.backgroundColor = "#E6E6FA";
+      setTimeout("setToBack3()", 500);
+    }
+    function TakeToCard3() {
+      document.getElementById("class3").style.backgroundColor = "#1226db";
+      document.getElementById("class3").style.color = "white";
+      document.getElementById("class2").style.backgroundColor = "white";
+      document.getElementById("class2").style.color = "#325288";
+      document.getElementById("class1").style.backgroundColor = "white";
+      document.getElementById("class1").style.color = "#325288";
+      document.getElementById("card4").style.backgroundColor = "#E6E6FA";
+      setTimeout("setToBack4()", 500);
+    }
+    function setToBack1() {
+      document.getElementById("card1").style.backgroundColor = "white";
+    }
+    function setToBack2() {
+      document.getElementById("card2").style.backgroundColor = "white";
+    }
+    function setToBack3() {
+      document.getElementById("card3").style.backgroundColor = "white";
+    }
+    function setToBack4() {
+      document.getElementById("card4").style.backgroundColor = "white";
+    }
+  </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>

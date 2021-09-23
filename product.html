@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+        
+        <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+        <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="./css/product_css/stylesheet.css" />
+        <link rel="stylesheet" href="./css/product_css/style.css" />
+        <title>Codesandbots</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="navbar">
+        <div class="logo">CodesandBots</div>
+
+        <div class="navbar_options">
+            <div class="navbar_option"><a href="#">Home</a></div>
+            <div class="navbar_option"><a href="#">My Classes</a></div>
+        </div>
+        <div class="profile_image">
+            <img src="https://cutt.ly/YEwc7JF" alt="No image found" />
+        </div>
+    </div>
+
+
+    <!-- page section -->
+            <div id='Product'>
+                <div class="head_section">
+                    <div class="head_left_section" id="course_video">
+                        <!-- <iframe class="video_link" src="https://www.youtube.com/embed/TUfjhjrw5gE" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> -->
+                    </div>
+                    <div class="head_right_section">
+                        <h1>Introduction to coding</h1>
+                        <h4>what you will learn in this course</h4>
+                        <div class="head_right_section_points" id="introduction_points">
+                            <!-- <p class="head_right_section_point">
+                                ✔️ Lorem ipsum dolor sit amet.
+                            </p>
+                            <p class="head_right_section_point">
+                                ✔️ Lorem ipsum dolor sit amet.
+                            </p>
+                            <p class="head_right_section_point">
+                                ✔️ Lorem ipsum dolor sit amet.
+                            </p>
+                            <p class="head_right_section_point">
+                                ✔️ Lorem ipsum dolor sit amet.
+                            </p> -->
+                        </div>
+                        <div class="head_right_section_button">
+                            <button>Coming Soon</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mid_section">
+                    <div class="mid_section_head">
+                        <h1 style="font-weight: 700;" id="course_title"></h1>
+                        <div class="rating_section">
+                            <h3 style="font-weight: 600;">Rating</h3>
+                            <div id="product_rating">
+                                <!-- <span>⭐⭐⭐⭐</span> -->
+                                <!-- <span style="font-weight: 600;font-size: 12px;">4.4</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid_section_content">
+                        <h1 style="font-weight:600;font-size: 21px">Course Description</h1>
+                        <p id="course_description">
+                            <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+                            voluptate reiciendis eum ut aliquid in repudiandae inventore
+                            suscipit! Aspernatur sit deserunt eligendi deleniti vero, incidunt
+                            nisi molestias voluptate accusamus! Ipsa sed adipisci enim veniam
+                            quia harum fugit provident. Reiciendis soluta incidunt nesciunt
+                            optio necessitatibus repudiandae eveniet dolores? In, minima
+                            exercitationem! -->
+                        </p>
+                        <br />
+                        <!-- <h1>What will you be learning?</h1>
+                    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                            provident recusandae eaque, repudiandae unde quia quisquam repellat
+                            delectus animi laboriosam, perspiciatis molestias magnam temporibus
+                            laudantium fugiat quasi maxime inventore ipsam.
+                        </p> -->
+                    </div>
+                    </div>
+                    <!-- courses -->
+                    <div class="app">
+                    <!-- main -->
+                    <div class="what-build-section">
+                        <!-- upper text -->
+                        <div class="what-build-section-text">
+                            <h1 class="what-build-title"style="font-size: 21px; font-weight: 600;">What will You Build</h1>
+                            <p class="what-build-text-description" id="build_description">
+                                <!-- Suspendisse vitae eget amet, sit facilisi euismod neque.
+                                Vulputate
+                                neque mollis duis consequat. Velit mattis vulputate nunc porttitor neque consectetur neque eget.
+                                Elit turpis
+                                vestibulum ridiculus quam lacus. -->
+                            </p>
+                        </div>
+                        <!-- upper text -->
+                        <!-- video -->
+                        <video class="what-build-video"></video>
+                        <!-- video -->
+                        <!-- courses-->
+                        <div class="what-build-similar-courses">
+                            <h1>Similar Courses</h1>
+                            <div class="what-build-cards">
+                                <div class="similar-course-card"
+                                    style="background-image: url(./css/product_css/image/card-image-1.png);">
+                                    <h2>Robotics</h2>
+                                </div>
+                                <div class=" similar-course-card"
+                                    style="background-image:url(../css/product_css/image/card-image-2.png)"">
+                                    <h2>Robotics</h2>
+                                </div>
+                                <div class=" similar-course-card"
+                                    style="background-image:url(./css/product_css/image/card-image-3.png)"">
+                                     <h2>Robotics</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- footer -->
+        <footer class=" text-center text-lg-start bg-light text-muted imag" id='footer'>
+                            <section class="">
+                                <div class="container text-center text-md-start mt-5">
+                                    <!-- Grid row -->
+                                    <div class="row mt-3">
+                                        <!-- Grid column -->
+                                        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4" id='left'>
+                                            <!-- Content -->
+                                            <h6 class=" font-weight-bold mb-4"
+                                                style="color: rgb(44, 17, 160); font-size: 30px; margin-top: 50px;font-weight: bold;">
+                                                <i class="fas fa-gem me-3"></i>codesandbots
+                                            </h6>
+                                            <p style="font-size:20px;margin-left:20px;">
+                                                A Company of AVIPL
+                                            </p>
+                                            <div class="social " style="margin-left: 35px;">
+
+
+                                                <a class="social-icon" data-tooltip="Twitter" href="/">
+                                                    <i class="fa fa-twitter mx-1 " aria-hidden="true"></i>
+                                                </a>
+                                                <a class="social-icon " data-tooltip="Facebook" href="/">
+                                                    <i class="fa fa-facebook mx-1 " aria-hidden="true"></i>
+                                                </a>
+
+                                                <a class="social-icon" data-tooltip="LinkedIn" href="/">
+                                                    <i class="fa fa-linkedin mx-1" aria-hidden="true"></i>
+                                                </a>
+                                                <a class="social-icon" data-tooltip="YouTube" href="/">
+                                                    <i class="fa fa-instagram mx-1" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-lg-1 col-xl-3 mx-auto mb-4" id='right'>
+
+                                            <h5 className="text-uppercase mb-4 mt-1 font-weight-bold ml-5"
+                                                style=" color: #2c2694; font-size: 25px; margin-left: 30px; margin-top: 50px; font-weight: 700;"
+                                                }}>
+                                                CONTACT US
+                                            </h5>
+                                            <ul className="list-unstyled font-weight-bold"
+                                                style="font-weight: 800; color: #4b4d4b; font-size: 18px;list-style: none;">
+                                                <li>
+                                                <li>Plot No.19, G1-Block, South City -II, Gurugram
+                                                    Haryana
+                                                    <p>India</p>
+                                                </li>
+                                                </li>
+                                                <li>
+                                                <li>Phone:
+                                                <li>+91-7976391232</li>
+                                                Email:<p>
+                                                    e-businessinnovator@avipl.in
+                                                </p>
+                                                </li>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section: Links  -->
+
+                            <!-- Copyright -->
+                            <div class="text-center p-2 bgcolor" style="color: #2c2694;">
+                                <p class="text-reset " href="/"> © Copyright
+                                    codesandbots. All Rights Reserved</p>
+                                <p>Designed by AVIPL
+                                </p>
+                            </div>
+                            <!-- Copyright -->
+        </footer>
+                            <!-- main  -->
+
+</body>
+<script type="text/javascript" src="js/product.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.js"
+integrity="sha512-un2apco0rYUiZXxbURvZ7oBq4u0cGrXaIbC4C1k5nAio6WRMyYvj8xKua3NqALOuu0F83zDha7nKoFCZzx26rg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+
+</html>

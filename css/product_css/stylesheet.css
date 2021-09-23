@@ -1,0 +1,255 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+/* temporary css */
+.app {
+   overflow-x: hidden;
+   width: 100%;
+   /* height: 100vh; */
+}
+/* temporary css */
+/* section body css */
+.what-build-section {
+   display: flex;
+   flex-direction: column;
+   margin-right: 60px;
+   margin-left: 60px;
+}
+
+.what-build-section-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 135px;
+}
+
+.what-build-title {
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 57px;
+}
+
+.what-build-text-description {
+   word-wrap: break-word;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+.what-build-video {
+   background: url("./image/video_pic.png");
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: 409px;
+   margin-top: 40px;
+   cursor: pointer;
+   
+}
+
+.what-build-similar-courses {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.what-build-similar-courses h1 {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 57px;
+   margin-top: 40px;
+}
+.what-build-cards{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+/* section body css */
+/* footer css */
+.page-footer {
+   margin-top: 40px;
+   height: 248px;
+   background: rgba(22, 56, 238, 0.12);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-left {
+   flex: 7;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-left-text {
+   display: flex;
+   justify-content: center;
+
+}
+
+.footer-left-text img {
+   width: 60px;
+   height: 60px;
+}
+
+.footer-left-text h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   color: #203358;
+   font-size: 35px;
+   line-height: 65px;
+}
+
+.social-icons {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.social-icons img {
+   width: 30px;
+   height: 30px;
+   margin: 5px;
+
+}
+
+.input-field {
+   display: flex;
+}
+
+.input-field input {
+   background: #FFFFFF;
+   border: 1px solid #0D286C;
+   box-sizing: border-box;
+   width:200px;
+}
+
+.subscribe-button {
+   background-color: #0D286C;
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 20px;
+   padding: 5px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+.footer-right{
+   flex:3;
+display: flex;
+flex-direction: column;
+}
+
+.footer-right h3{
+   margin-top: 10px;
+}
+/* footer css */
+/* card css */
+.similar-course-card {
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+   border-radius: 10px;
+   height: 250px;
+   width: 250px;
+   margin: 15px;
+   cursor: pointer;
+}
+
+.similar-course-card h2 {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 55px;
+   text-align: center;
+   background-color: #0000008a;
+   border-radius: 10px;
+   color: #FFFFFF;
+}
+/* card css */
+@media (max-width:760px) {
+   /* section body css */
+
+   .what-build-section {
+      margin-right: 40px;
+      margin-left: 40px;
+   }
+   .what-build-section-text {
+      height: max-content;
+   }
+   .what-build-title{
+         margin-bottom: 10px;
+   }
+   .what-build-title,.what-build-similar-courses h1 {
+      font-size: 30px;
+      line-height: 40px;
+   }
+   .what-build-video {
+      height: 309px;
+margin-top: 20px;
+   }
+   /* section body css */
+/* footer css  */
+.page-footer {
+   margin-top: 30px;
+}
+
+.footer-left {
+   flex: 6;
+  
+}
+
+.footer-left-text img {
+   width: 30px;
+   height: 30px;
+}
+
+.footer-left-text h2 {
+   font-size: 25px;
+   line-height:35px;
+}
+
+.social-icons {
+   margin-bottom: 20px;
+}
+
+.social-icons img {
+   width: 20px;
+   height: 20px;
+}
+
+.input-field input {
+   width:100px;
+}
+
+.subscribe-button {
+   font-size: 12px;
+}
+.footer-right{
+   flex:3;
+display: flex;
+flex-direction: column;
+}
+
+.footer-right h2{
+   font-size: 14px;
+}
+.footer-right h3{
+   font-size: 12px;
+   margin-top: 10px;
+}
+/* footer css */
+}
+

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.imag {
+    background: url("../images/picture.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.bgcolor {
+    background-color: rgb(229, 233, 247)
+}
+
+.social-icon {
+    background-color: #c7c4f0;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    border-radius: 100%;
+    padding: 2px 2px;
+    color: white;
+    margin: 1px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:750px) {
+    #left{
+        width: 50%;
+    }
+    #right{
+        width: 50%;
+    }
+}

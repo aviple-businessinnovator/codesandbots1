@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.top_heading {
+  color: #1b2c87;
+  margin: 43px 12px;
+  font-weight: bold;
+}
+.main_container {
+  margin: 3.5vw;
+}
+.sub_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left portion style */
+.left_portion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  max-width: 40vw;
+}
+.left_portion_heading {
+  color: #0d1c6b;
+  font-weight: 700;
+  margin: 18px 0px;
+}
+.left_portion_subheading {
+  color: #4d4b4b;
+  font-weight: bold;
+}
+.left_portion_img {
+  width: 41vw;
+  height: 29vw;
+  margin: 42px 0px;
+}
+
+/* Right portion style */
+a {
+  text-decoration: none;
+  color: #0d286c;
+  font-weight: 600;
+}
+.right_portion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  max-width: 35vw;
+}
+.right_portion_title {
+  color: #767676;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 18px;
+  padding: 5px 5px;
+}
+.right_portion_numbersection {
+  color: #7d7d7d;
+  margin: 10px 0px;
+}
+.right_portion_inputfield {
+  background-color: #ececec;
+  border-radius: 5px;
+  min-width: 15vw;
+  padding: 5px 17px;
+  border: none;
+  margin: 15px 0px;
+  font-size: 1.1rem;
+}
+.right_portion_inputfield::placeholder {
+  color: #7a7979;
+  font-weight: 600;
+}
+.Resend_button {
+  margin: 12px 0px;
+}
+.continue_button {
+  background-color: #0d286c;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  margin: 10px 0px;
+}
+.continue_button:hover {
+  cursor: pointer;
+}
+.right_portion_bottomlinks {
+  text-align: center;
+  margin-top: 40%;
+}
+
