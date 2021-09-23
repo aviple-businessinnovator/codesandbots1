@@ -1,10 +1,14 @@
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 const auth = require("./auth");
 const cookieParser = require("cookie-parser");
 require("./db");
 const Users = require("../backend/userModel");
 const app = express();
+app.use(express.static("public"));
+app.use("/static", express.static(path.join(__dirname, "public")));
+const port = process.env.PORT || 3000;
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors());
@@ -49,6 +53,6 @@ app.post("/register", async (req, res) => {
 //     res.status(400).send(e);
 //   }
 // });
-app.listen("3000", (req, res) => {
-  console.log("running");
+app.listen(port, (req, res) => {
+  console.log("running on " + port);
 });
