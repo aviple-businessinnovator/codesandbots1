@@ -3313,7 +3313,7 @@ btn.addEventListener('click',(e)=>{
     child_name.value="";
     parent_name.value="";
     phone_number.value="";
-    axios.post('3.81.164.217:3000/register',{data:data},{headers:{"Access-Control-Allow-Origin":"*"}},{ withCredentials: true }).then((res)=>{
+    axios.post(':3000'+'/register',{data:data},{headers:{"Access-Control-Allow-Origin":"*"}},{ withCredentials: true }).then((res)=>{
       let token = res.data.token;
       localStorage.setItem("SavedToken", 'Bearer ' + token);
       window.location.assign(`/${product}.html`);
