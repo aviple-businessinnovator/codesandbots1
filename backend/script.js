@@ -14,13 +14,14 @@ app.use(express.json());
 app.use(cors());
 
 app.post("/register", async (req, res) => {
+  console.log(req.body);
   try {
     const user = await new Users({
-      childName: req.body.childName,
-      parentName: req.body.parentName,
-      mobileNumber: req.body.mobileNumber,
-      course: req.body.course,
-      class: req.body.class,
+      childName: req.body.data.child_name,
+      parentName: req.body.data.parent_name,
+      mobileNumber: req.body.data.phone_number,
+      course: req.body.data.course,
+      class: req.body.data.child_class,
     });
     const token = await user.genAuthToken();
     // const otp = await user.genOtpToken();
