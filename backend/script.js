@@ -9,7 +9,7 @@ const Users = require("../backend/userModel");
 const app = express();
 app.use(express.static("public"));
 app.use("/static", express.static(path.join(__dirname, "public")));
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors());
