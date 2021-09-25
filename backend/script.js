@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const Course = require("./courseModel");
 const path = require("path");
 const auth = require("./auth");
 const cookieParser = require("cookie-parser");
@@ -32,28 +33,39 @@ app.post("/register", async (req, res) => {
     res.status(404).send({ msg: "Some Error Occured" });
   }
 });
-// app.post("/verify", auth, async (req, res) => {
-//   console.log(req.body.body);
-//   const user = await Users.findById(req.user._id);
-//   if (user.otp === req.body.body) {
-//     const updateUser = await Users.findByIdAndUpdate(req.user._id, {
-//       isAuthenticaed: true,
-//     });
-//     res.status(200).send({ msg: "Authenticated" });
-//   } else if (user.otp !== req.body.body) {
-//     res.status(400).send({ msg: "Not Authenticated" });
-//   }
-// });
-// app.get("/resendotp", auth, async (req, res) => {
-//   try {
-//     const user = await Users.findById(req.user._id);
-//     await user.genOtpToken();
-//     await user.sendOtpToken();
-//     res.status(201).send({ msg: "New Otp Generated" });
-//   } catch (e) {
-//     res.status(400).send(e);
-//   }
-// });
+app.get("/course/:courseName", async (req, res) => {
+  try {
+    console.log(req.params.courseName);
+    const course = await Course.findOne({ name: req.params.courseName });
+    console.log(course);
+
+    if (!course) {
+      return next(
+        new ErrorResponse(
+          `Course not found with id of ${req.params.courseName}`,
+          404
+        )
+      );
+    }
+
+    res.status(200).json({
+      success: true,
+      data: course,
+    });
+  } catch (e) {
+    res.status(400).send(e);
+  }
+});
+app.post("/create", async (req, res) => {
+  try {
+    const data = await new Course(req.body);
+    console.log(data);
+    await data.save();
+    res.status(201).send(data);
+  } catch (error) {
+    res.status(400).send(error);
+  }
+});
 app.listen(port, (req, res) => {
   console.log("running on " + port);
 });

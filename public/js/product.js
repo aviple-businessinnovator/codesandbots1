@@ -1,7 +1,6 @@
-
 // const product = document.getElementById('Product');
-const course = localStorage.getItem('usercourse');
-const username = localStorage.getItem('username');
+const course = localStorage.getItem("usercourse");
+const username = localStorage.getItem("username");
 console.log(course);
 const product = document.getElementById("introduction_points");
 const productrating = document.getElementById("product_rating");
@@ -11,73 +10,77 @@ const productVideo = document.getElementById("course_video");
 const build_description = document.getElementById("build_description");
 
 const coursename = localStorage.getItem("usercourse");
-const data=[];
+const data = [];
 
-axios.get(`http://localhost:5000/courses/course/${course}`,{headers: {'Content-Type': 'application/json;charset=UTF-8'}}).then((res)=>{
-    const url = res.data.data
+axios
+  .get(`/course/${course}`, {
+    headers: { "Content-Type": "application/json;charset=UTF-8" },
+  })
+  .then((res) => {
+    const url = res.data.data;
     console.log(res);
+    console.log(url.displayName);
 
     // introduction
 
-    const html= url.introduction.map((item)=>{
-        return(`<p class="head_right_section_point">
+    const html = url.introduction
+      .map((item) => {
+        return `<p class="head_right_section_point">
         ✔️ ${item}.
-     </p>`)
-    }).join("")
-    product.innerHTML=html;
+     </p>`;
+      })
+      .join("");
+    product.innerHTML = html;
 
     // videos
 
-    productVideo.innerHTML =` <iframe class="video_link" src=${url.video} title="YouTube video player"
+    productVideo.innerHTML = ` <iframe class="video_link" src=${url.video} title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>`
+    allowfullscreen></iframe>`;
 
     // videos
 
-    // title 
+    // title
 
-    productTitle.innerHTML=`${url.displayName}`
+    productTitle.innerHTML = `${url.displayName}`;
 
-     // title 
+    // title
 
-    // Rating 
-    const rating = Math.round(url.rating)
+    // Rating
+    const rating = Math.round(url.rating);
 
-    const star_rating=  Array(rating).fill().map(()=>(
-        `⭐`
-    ))
-    const ratinghtml = star_rating.map((item)=>{
-        return `<span>${item}</span>`
-    }).join("");
-    productrating.innerHTML=`${ratinghtml}<span class="rating_value">${rating}</span>`
+    const star_rating = Array(rating)
+      .fill()
+      .map(() => `⭐`);
+    const ratinghtml = star_rating
+      .map((item) => {
+        return `<span>${item}</span>`;
+      })
+      .join("");
+    productrating.innerHTML = `${ratinghtml}<span class="rating_value">${rating}</span>`;
 
-    // Rating 
+    // Rating
 
-    // description 
+    // description
 
-    productDescription.innerHTML = `${url.description}`
+    productDescription.innerHTML = `${url.description}`;
 
-    // description 
+    // description
 
-    // build_description 
+    // build_description
 
-    build_description.innerHTML=`${url.buildDescription}`
-    // build_description 
-
-}).catch((err)=>{
+    build_description.innerHTML = `${url.buildDescription}`;
+    // build_description
+  })
+  .catch((err) => {
     console.log(err);
-})
+  });
 
 console.log(data);
 
 // console.log(product);
 
-
-
-
 // const html=``
-
-
 
 // product.innerHTML = html;
